@@ -13,7 +13,7 @@ Associate Professor, ENS Paris-Saclay,France
 _____________________________________________
 
 ## Concrete Data Initiative: [CDI](https://github.com/tuliohf/cdi)
-
+ 
 
 _____________________________________________
 ## Benchmark of mesoscale modeling of concrete 
