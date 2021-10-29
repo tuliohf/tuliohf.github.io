@@ -15,6 +15,9 @@ Associate Professor, ENS Paris-Saclay,France
 ## Concrete Data Initiative: [CDI](https://github.com/tuliohf/cdi)
 
 
+## Benchmark of mesoscale modeling of concrete 
+
+Benchmark associated with the Technical Comitee [287-CCS : Early age and long-term crack width analysis in RC Structures](https://www.rilem.net/groupe/287-ccs-early-age-and-long-term-crack-width-analysis-in-rc-structures-390)
 
 
 ## ANR [THEDESCO](https://anr.fr/Projet-ANR-19-CE22-0004)
