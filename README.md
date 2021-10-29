@@ -18,7 +18,7 @@ _____________________________________________
 _____________________________________________
 ## Benchmark of mesoscale modeling of concrete 
 
-Benchmark associated with the Technical Comitee [287-CCS : Early age and long-term crack width analysis in RC Structures](https://www.rilem.net/groupe/287-ccs-early-age-and-long-term-crack-width-analysis-in-rc-structures-390)
+Benchmark associated with the RILEM Technical Committee [287-CCS : Early age and long-term crack width analysis in RC Structures](https://www.rilem.net/groupe/287-ccs-early-age-and-long-term-crack-width-analysis-in-rc-structures-390)
 
 _____________________________________________
 ## ANR [THEDESCO](https://anr.fr/Projet-ANR-19-CE22-0004)
