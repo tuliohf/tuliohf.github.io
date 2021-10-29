@@ -28,3 +28,9 @@ Associate Professor, ENS Paris-Saclay,France
 1. A review on the [Advances in atomistic modeling and understanding of drying shrinkage in cementitious materials](https://www.sciencedirect.com/science/article/abs/pii/S000888462100185X?via%3Dihub)
 
 
+## Project HYDRA
+
+-  October 2021: Sofiane Ait-Hamadouche joined the project as a PhD candidate
+
+
+
