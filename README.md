@@ -6,6 +6,8 @@ Associate Professor, ENS Paris-Saclay,France
 
 [Google Scholar](https://www.researchgate.net/profile/Tulio-Honorio)
 
+[Hal CV](https://cv.archives-ouvertes.fr/tulio-honorio)
+
 [LMT personal page](https://w3.lmt.ens-cachan.fr/site/php_perso/perso_page_lmt.php?nom=HONORIO&secteur=3)
 
 ## Concrete Data Initiative: [CDI](https://github.com/tuliohf/cdi)
