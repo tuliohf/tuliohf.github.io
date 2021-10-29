@@ -10,16 +10,17 @@ Associate Professor, ENS Paris-Saclay,France
 
 [LMT personal page](https://w3.lmt.ens-cachan.fr/site/php_perso/perso_page_lmt.php?nom=HONORIO&secteur=3)
 
-
+_____________________________________________
 
 ## Concrete Data Initiative: [CDI](https://github.com/tuliohf/cdi)
 
 
+_____________________________________________
 ## Benchmark of mesoscale modeling of concrete 
 
 Benchmark associated with the Technical Comitee [287-CCS : Early age and long-term crack width analysis in RC Structures](https://www.rilem.net/groupe/287-ccs-early-age-and-long-term-crack-width-analysis-in-rc-structures-390)
 
-
+_____________________________________________
 ## ANR [THEDESCO](https://anr.fr/Projet-ANR-19-CE22-0004)
 
 -  March 2021: Fatima Masara joined the project as a PhD candidate
@@ -30,7 +31,7 @@ Benchmark associated with the Technical Comitee [287-CCS : Early age and long-te
 
 1. A review on the [Advances in atomistic modeling and understanding of drying shrinkage in cementitious materials](https://www.sciencedirect.com/science/article/abs/pii/S000888462100185X?via%3Dihub)
 
-
+_____________________________________________
 ## Project HYDRA
 
 -  October 2021: Sofiane Ait-Hamadouche joined the project as a PhD candidate
