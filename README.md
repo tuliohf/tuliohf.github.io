@@ -10,7 +10,7 @@ Associate Professor, ENS Paris-Saclay,France
 
 [LMT personal page](https://w3.lmt.ens-cachan.fr/site/php_perso/perso_page_lmt.php?nom=HONORIO&secteur=3)
 
-[CV in PDF](https://github.com/tuliohf/tuliohf.github.io/blob/main/HONORIO_CV_EN_May_2022.pdf)
+[CV in PDF](tuliohf.github.io/HONORIO_CV_EN_May_2022.pdf)
 _____________________________________________
 
 ## Concrete Data Initiative: [CDI](https://github.com/tuliohf/cdi)
