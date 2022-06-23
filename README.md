@@ -11,10 +11,20 @@ Associate Professor, ENS Paris-Saclay,France
 [LMT personal page](https://w3.lmt.ens-cachan.fr/site/php_perso/perso_page_lmt.php?nom=HONORIO&secteur=3)
 
 [CV in PDF](tuliohf.github.io/HONORIO_CV_EN_May_2022.pdf)
+
+_____________________________________________
+
+## Atomic structures for molecular simulation of phases in cement system: [Cement_Molecular](https://github.com/tuliohf/Cement_Molecular)
+
+Data on AF-phases: Ettringite/Metaettringite, AFms (Friedel's salt)
+
+
 _____________________________________________
 
 ## Concrete Data Initiative: [CDI](https://github.com/tuliohf/cdi)
  
+Dataset on elastic properties of OPC pastes [Heat capacity, isothermal compressibility, isosteric heat of adsorption and thermal expansion of water confined in C-S-H](https://github.com/tuliohf/cdi/blob/main/Dataset_Elastic_Constants_OPC_Pastes)
+
 
 _____________________________________________
 ## Benchmark of mesoscale modeling of concrete 
