@@ -8,7 +8,7 @@ Associate Professor, ENS Paris-Saclay,France
 
 [Hal CV](https://cv.archives-ouvertes.fr/tulio-honorio)
 
-[LMT personal page](https://w3.lmt.ens-cachan.fr/site/php_perso/perso_page_lmt.php?nom=HONORIO&secteur=3)
+[LMPS personal page](https://lmps.ens-paris-saclay.fr/fr/annuaire-des-personnes/tulio-honorio-de-faria)
 
 [CV in PDF](tuliohf.github.io/HONORIO_CV_EN_May_2022.pdf)
 
