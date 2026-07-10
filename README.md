@@ -1,6 +1,6 @@
 # Tulio Honorio
 
-Associate Professor, ENS Paris-Saclay,France 
+Research Engineer, Senior Expert, CEA Paris-Saclay, France 
 
 [Researchgate](https://www.researchgate.net/profile/Tulio-Honorio)
 
