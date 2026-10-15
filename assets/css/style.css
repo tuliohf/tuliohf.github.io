@@ -1,7 +1,9 @@
 /* Layout: a single reading column (max 72rem) with a quiet masthead; cool concrete-grey paper,
    one mineral-teal accent, serif display for names and headings, mono for IDs, years and scales. */
 :root {
-  --bg: #f4f5f3;
+  --bg: #ffffff;
+  --grid: rgba(45, 50, 52, 0.16);
+  --grid-size: 24px;
   --surface: #ffffff;
   --ink: #1b2225;
   --muted: #5b6569;
@@ -22,23 +24,17 @@
   --radius: 4px;
   color-scheme: light;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #111618; --surface: #182023; --ink: #e3e8e6; --muted: #9aa5a8; --line: #2b3438;
-    --accent: #7fc3c5; --accent-ink: #0d1517; --accent-soft: #1b2e31; --ph: #1d2629;
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #111618; --surface: #182023; --ink: #e3e8e6; --muted: #9aa5a8; --line: #2b3438;
-  --accent: #7fc3c5; --accent-ink: #0d1517; --accent-soft: #1b2e31; --ph: #1d2629;
-  color-scheme: dark;
-}
 
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body {
-  margin: 0; background: var(--bg); color: var(--ink);
+  margin: 0; color: var(--ink);
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: var(--grid-size) var(--grid-size);
+  background-position: -1px -1px;
   font: 400 var(--step-0)/1.6 var(--font-body);
 }
 img { max-width: 100%; height: auto; display: block; }
