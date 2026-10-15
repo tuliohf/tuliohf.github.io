@@ -33,8 +33,6 @@ facts:
     label: PhD theses co-supervised
   - value: "4"
     label: postdocs supervised
-  - value: "150"
-    label: journal reviews
 
 profiles:
   - name: Google Scholar
