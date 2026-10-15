@@ -32,6 +32,21 @@
   funding: []
   papers: [J66, J57, J48, J47, J13]
 
+- id: sorption
+  title: Sorption and sorption-induced deformation
+  scale: "Å → mm"
+  summary: Water sorption, hysteresis and disjoining pressure in nanopores, and the shrinkage and swelling they cause.
+  image: ""
+  figure_hint: Sorption isotherm with hysteresis, or water in a C-S-H nanopore
+  body: >-
+    Drying and wetting change the forces between the nanolayers of C-S-H, clays and other hydrates,
+    causing shrinkage, swelling and hysteresis. We simulate sorption isotherms, disjoining pressures and
+    cavitation in nanopores under varying humidity and temperature, and build poromechanical models that
+    carry these effects up to the drying shrinkage and thermal deformation of concrete.
+  people: [Fatima Masara, Farid Benboudjema, Laurent Brochard, Matthieu Vandamme, Elvys Dias Reis]
+  funding: [ANR THEDESCO]
+  papers: [J53, J42, J44, J51, J32, J20]
+
 - id: pce
   title: Superplasticizers (PCE)
   scale: "Å → nm"
@@ -76,6 +91,21 @@
   people: [Laurent Brochard, Matthieu Vandamme]
   funding: []
   papers: [J67, J37, J27, J13, J8, J7]
+
+- id: electrical
+  title: Electrical and dielectric properties
+  scale: "Å → m"
+  summary: Dielectric permittivity and ionic conductivity of pore solutions and hydrates, upscaled for non-destructive testing.
+  image: ""
+  figure_hint: Dielectric spectrum or impedance plot of C-S-H
+  body: >-
+    Electrical and dielectric measurements are non-destructive ways to follow hydration, moisture and
+    degradation in concrete. We compute the dielectric permittivity and ionic conductivity of pore solutions
+    and hydrates from molecular simulations, and upscale them with micromechanics to interpret impedance and
+    microwave measurements on cement pastes and concrete.
+  people: [Sofiane Ait-Hamadouche, Walter Batista Bonfim, Oswaldo Cascudo, Helena Carasek, Éric Vourc'h, Thierry Bore]
+  funding: [IDEX LaSIPS (HYDRA)]
+  papers: [J60, J45, J43, J19, J18, J17]
 
 - id: low-carbon
   title: Low-carbon concrete

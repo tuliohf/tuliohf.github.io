@@ -107,7 +107,8 @@ main { padding-block: 40px 72px; display: flex; flex-direction: column; gap: 56p
 .count { color: var(--muted); font-size: 0.6em; font-weight: 400; margin-left: 6px; vertical-align: middle; }
 
 /* Project cards */
-.cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px 24px; }
+.cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px 24px; }
+@media (max-width: 1100px) { .cards { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 900px) { .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 520px) { .cards { grid-template-columns: 1fr; } }
 .card { display: flex; flex-direction: column; gap: 8px; color: var(--ink); text-decoration: none; min-width: 0; }
@@ -133,7 +134,7 @@ main { padding-block: 40px 72px; display: flex; flex-direction: column; gap: 56p
 /* Length-scale chart */
 .scales { margin: 8px 0 0; padding: 18px 20px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
 .scales-grid { display: flex; flex-direction: column; gap: 8px; }
-.scale-row { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: 16px; align-items: center; text-decoration: none; color: var(--ink); font-size: 0.9rem; }
+.scale-row { display: grid; grid-template-columns: 18rem minmax(0, 1fr); gap: 16px; align-items: center; text-decoration: none; color: var(--ink); font-size: 0.9rem; }
 .scale-row:hover .scale-bar { filter: brightness(1.15); }
 .scale-track { position: relative; height: 10px; background: linear-gradient(90deg, var(--line) 1px, transparent 1px) 0 0 / 10% 100%; border-left: 1px solid var(--line); border-right: 1px solid var(--line); margin-inline: 10px; }
 .scale-bar { position: absolute; top: 1px; bottom: 1px; background: var(--accent); border-radius: 5px; min-width: 6px; }
