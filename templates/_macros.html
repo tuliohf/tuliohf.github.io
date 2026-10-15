@@ -8,6 +8,8 @@
       {% if p.journal %}<em>{{ p.journal }}</em>{% endif %}{% if p.details %} {{ p.details }}{% endif %}{% if p.year %} ({{ p.year }}){% endif %}
       {% if p.status != 'published' %}<span class="tag tag-status">{{ p.status }}</span>{% endif %}
       {% if p.note %}<span class="tag">{{ p.note }}</span>{% endif %}
+      {% if p.oa %}<span class="tag tag-oa" title="Free to read from the publisher">Open access</span>{% endif %}
+      {% if p.hal %}<a class="tag tag-hal" href="{{ p.hal }}" title="Free author version on HAL">HAL</a>{% endif %}
       {% if p.doi %}<a class="doi mono" href="https://doi.org/{{ p.doi }}">doi:{{ p.doi }}</a>{% endif %}
     </span>
   </div>

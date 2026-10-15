@@ -1,6 +1,7 @@
 # Publications — edit by hand. Newest first within each type.
 # Fields: id, type (journal|chapter|thesis), status (published|in press|under revision|under review),
-#         year, selected (true → shown in 'Selected' + homepage), title, authors, journal, details, doi, url, note
+#         year, selected (true → shown in 'Selected' + homepage), title, authors, journal, details, doi, url, note,
+#         oa (true → 'Open access' tag), hal (URL of the HAL author version → 'HAL' tag)
 # Author markers: # postdoc, * PhD student, ** Master student, *** undergraduate (supervised by T. Honorio)
 
 - id: J71
@@ -70,6 +71,7 @@
   journal: RILEM Technical Letters
   details: 11, 89–100
   doi: 10.21809/rilemtechlett.2026.238
+  oa: true
 - id: J62
   type: journal
   status: published
@@ -116,6 +118,7 @@
   journal: RILEM Technical Letters
   details: '10: 58-67'
   doi: 10.21809/rilemtechlett.2025.219
+  oa: true
 - id: J57
   type: journal
   status: published
@@ -126,6 +129,7 @@
   journal: Cement
   details: '20: 100143'
   doi: 10.1016/j.cement.2025.100143
+  oa: true
 - id: J56
   type: journal
   status: published
@@ -269,6 +273,7 @@
   authors: Honorio, T.; Ait Hamadouche, S**; Fau, A.
   journal: Journal of Theoretical, Computational and Applied Mechanics
   doi: 10.46298/jtcam.9830
+  oa: true
 - id: J40
   type: journal
   status: published
@@ -342,6 +347,7 @@
   journal: Cement
   details: 6, 100015
   doi: 10.1016/j.cement.2021.100015
+  oa: true
 - id: J32
   type: journal
   status: published
@@ -562,6 +568,7 @@
   journal: RILEM Technical Letters
   details: 2, 99–107
   doi: 10.21809/rilemtechlett.2017.44
+  oa: true
 - id: J8
   type: journal
   status: published
@@ -670,6 +677,7 @@
   authors: Honorio, T.
   journal: Habilitation (HDR), Université Paris-Saclay
   url: https://hal-centralesupelec.archives-ouvertes.fr/tel-04051504/
+  oa: true
 - id: PhD
   type: thesis
   status: published
@@ -678,3 +686,4 @@
   authors: Honorio, T.
   journal: PhD thesis, École Normale Supérieure de Cachan
   url: https://tel.archives-ouvertes.fr/tel-01241585
+  oa: true

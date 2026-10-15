@@ -4,6 +4,10 @@
 <header class="page-head">
   <h1>Publications</h1>
   <p class="lede">{{ n_journal }} journal articles, {{ chapters|length }} book chapters. Full and up-to-date list on <a href="{{ site.profiles[0].url }}">Google Scholar</a>.</p>
+  <div class="pdf-note">
+    <p><span class="tag tag-oa">Open access</span> free to read from the publisher · <span class="tag tag-hal">HAL</span> free author version on HAL</p>
+    <p>For any article behind a paywall, I am happy to send the PDF to anyone interested. Just email me{% if site.email %} at <span class="mono">{{ site.email }}</span>{% endif %}.</p>
+  </div>
   <p class="legend">Trainees I supervised:
     {% for k, v in marks.items() %}<span><sup class="mark">{{ k }}</sup> {{ v }}</span>{% endfor %}
   </p>
