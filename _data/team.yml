@@ -1,5 +1,5 @@
 # Advisees. Add `now:` (current position) to past members — reviewers look for it.
-# role: postdoc | phd | visiting | master | undergrad ; status: current | past
+# role: postdoc | phd | apprentice | visiting | master | undergrad ; status: current | past
 - {name: Fatima Masara, role: postdoc, status: current, years: 2026–, topic: "Structure and elastic properties of (alumino)silicates of magnesium hydrates (M-(A)-S-H)", with: "T. Charpentier (CEA)", funding: CEA}
 - {name: Elvys Dias Reis, role: postdoc, status: past, years: 2025–2026, topic: "Mechanisms of expansion in alkali-silica reaction: a bottom-up approach", with: "F. Benboudjema, A. Bourdot (ENS Paris-Saclay)", funding: ANR HEAT COFFEE, now: ""}
 - {name: Justin Kinda, role: postdoc, status: past, years: 2023–2024, topic: "Experimental evaluation of thermal-sorption coupled deformations in cement-based materials", with: "F. Benboudjema (LMPS)", funding: ANR THEDESCO, now: ""}
@@ -15,6 +15,8 @@
 - {name: Takwa Sayari, role: phd, status: past, years: 2019–2023, topic: "Kinetics of drying in concrete: achieving water content equilibrium in fire behaviour tests", with: "F. Benboudjema (dir.), F. Robert, S. Mohaine (CERIB)", funding: CERIB, award: "Special prize of the National Federation of Public Works (2022)", now: ""}
 - {name: Mihaja Razafimbelo, role: phd, status: past, years: 2019–2022, topic: "Optimization of the reinforcement in massive zones of reinforced concrete under complex loadings", with: "F. Gatuingt (dir.), M. Bottoni, G. Hervé-Secourgeon (EDF R&D)", funding: EDF R&D, now: ""}
 - {name: Pascale Saba, role: phd, status: past, years: 2018–2022, topic: "Mechanics of cement-based composites reinforced by glass-fibre grids", with: "F. Benboudjema (dir.), X. Brajer (Saint-Gobain Research)", funding: Saint-Gobain, now: ""}
+
+- {name: Nathan Martins, role: apprentice, status: current, years: "Dec 2025–", level: "Work-study apprentice (alternant), materials engineering, 2 years", topic: "Low-carbon cement systems: early-age mechanical properties and rheology"}
 
 - {name: Walter Batista Bonfim, role: visiting, status: past, years: 2026, level: doctoral, from: "Federal University of Goiás, Brazil", topic: "Impedance of C-S-H and multiscale models of electrical properties for low-carbon cement systems"}
 - {name: Naohiko Saeki, role: visiting, status: past, years: 2024–2025, level: doctoral, from: "University of Tokyo, Japan", topic: "Carbonation of C-S-H"}
