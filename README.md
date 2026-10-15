@@ -4,7 +4,7 @@ Personal academic website of Tulio Honorio, published at https://tuliohf.github.
 
 ## How to update the content
 
-Everything you normally change is in `_data/`. You can edit these files directly on GitHub; the site rebuilds by itself within a minute or two after each commit.
+Everything you normally change is in `_data/`. After editing, run `python build.py` and commit the regenerated `*.html` files at the repo root: GitHub Pages serves them directly from the `main` branch.
 
 | File | What it holds |
 |---|---|
@@ -28,8 +28,8 @@ pip install jinja2 pyyaml
 python build.py --serve   # then open http://localhost:8000
 ```
 
-## One-time setup on GitHub
+## GitHub Pages setting
 
-Settings → Pages → Build and deployment → Source: **GitHub Actions**.
+Settings → Pages → Build and deployment → Source: **Deploy from a branch**, branch `main`, folder `/ (root)`.
 
 Layout: `templates/` (page layouts), `assets/css/style.css` (design), `build.py` (builder), `.github/workflows/pages.yml` (deployment).

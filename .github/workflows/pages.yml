@@ -1,8 +1,8 @@
 name: Build and deploy site
 
+# Runs only when started by hand (Actions tab → Run workflow).
+# The built pages are committed at the repo root and served directly.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
