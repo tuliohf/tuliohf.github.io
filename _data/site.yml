@@ -49,8 +49,6 @@ profiles:
     url: https://cv.archives-ouvertes.fr/tulio-honorio
   - name: ResearchGate
     url: https://www.researchgate.net/profile/Tulio-Honorio
-  - name: LMPS page
-    url: https://lmps.ens-paris-saclay.fr/fr/annuaire-des-personnes/tulio-honorio-de-faria
 
 # Short news items on the home page (newest first). Keep 3–5.
 news:
