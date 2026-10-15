@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-head">
+  <h1>Contact</h1>
+  <p class="lede">I welcome enquiries about collaborations, PhD and postdoc positions, and the RILEM TC ASM.</p>
+</header>
+<div class="contact">
+  <section>
+    {% if site.email %}
+    <h2>Email</h2>
+    <p class="mono email">{{ site.email }}</p>
+    {% endif %}
+    <h2>Address</h2>
+    <address>{% for l in site.address %}{{ l }}<br>{% endfor %}</address>
+    <p class="muted">{{ site.affiliation_note }}</p>
+  </section>
+  <section>
+    <h2>Profiles</h2>
+    <ul class="mini-list">
+      {% for p in site.profiles %}<li><a href="{{ p.url }}">{{ p.name }}</a></li>{% endfor %}
+    </ul>
+  </section>
+</div>
+{% endblock %}

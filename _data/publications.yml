@@ -1,0 +1,680 @@
+# Publications — edit by hand. Newest first within each type.
+# Fields: id, type (journal|chapter|thesis), status (published|in press|under revision|under review),
+#         year, selected (true → shown in 'Selected' + homepage), title, authors, journal, details, doi, url, note
+# Author markers: # postdoc, * PhD student, ** Master student, *** undergraduate (supervised by T. Honorio)
+
+- id: J71
+  type: journal
+  status: under review
+  title: 'Transport properties of mortar affected by ASR: a multiscale approach combining thermodynamic modeling and micromechanics'
+  authors: Razki, S.*; Bourdot, A.; Benboudjema, F.; Honorio, T.
+- id: J70
+  type: journal
+  status: under review
+  title: 'Atomistic modelling of AFm phases: interlayer structure, anion exchange, and the electrostatic origin of solubility'
+  authors: Tararushkin, E.V.; Smirnov, G.S.; Honorio, T.
+- id: J69
+  type: journal
+  status: under review
+  title: 'A multiscale approach to molecular hydrogen release from irradiated materials: fractional subdiffusion in portlandite'
+  authors: Simeone, D.; Herin, T.; Bouniol, P.; Poyet, S.; Honorio, T.; Le Caër, S.
+- id: J68
+  type: journal
+  status: under revision
+  title: 'Apparent thermal contraction of cement pastes up to 175°C: experimental characterization, multiscale model, repercussions at the concrete scale'
+  authors: Cheng, S.*; Poyet, S.; Honorio, T.; Hild, F.; Bary, B.
+  journal: Cement and Concrete Research
+- id: J67
+  type: journal
+  status: in press
+  year: 2026
+  title: Anomalous diffusion of water and ions in swelling clays
+  authors: Honorio, T.
+  journal: The Journal of Physical Chemistry C
+- id: J66
+  type: journal
+  status: published
+  year: 2026
+  selected: true
+  title: Power-law creep in C-S-H emerging from subdiffusive dynamics
+  authors: Honorio, T.
+  journal: Cement and Concrete Research
+  details: 209, 108362
+  doi: 10.1016/j.cemconres.2026.108362
+- id: J65
+  type: journal
+  status: published
+  year: 2026
+  title: Fluorescence-based detection of apparent crystallization pressure in microfluidic channels
+  authors: Mahmoud Hawchar, B.*; Honorio, T.; Vandamme, M.; Osselin, F.; Pereira, J.-M.; Mercury, L.; Brochard, L.
+  journal: Journal of Crystal Growth
+  details: 694, 128749
+  doi: 10.1016/j.jcrysgro.2026.128749
+- id: J64
+  type: journal
+  status: published
+  year: 2026
+  selected: true
+  title: 'Crystalline ASR products: review of mineral candidates and molecular simulations of their atomic structures, thermodynamic data and thermoelastic properties'
+  authors: Honorio, T.; Razki, S.*; Dias Reis, E.#; Charpentier, T.; Loukili, I.***; Bourdot, A.; Benboudjema, F.
+  journal: Cement and Concrete Research
+  details: 208, 108326
+  doi: 10.1016/j.cemconres.2026.108326
+- id: J63
+  type: journal
+  status: published
+  year: 2026
+  selected: true
+  title: 'Opening Letter of RILEM TC ASM: Atomistic Simulations for Cement-Based Materials: Recommendations and link to Experiments'
+  authors: Honorio, T.; Manzano, H.; Geng, G.; Masoero, E.; Dias Reis, E.#; Krishnan, N.M.A.; Alex, A.; Beta, P.; Duque-Redondo, E.; Tararushkin, E.; Charpentier, T.; Mishra, R.K.; Kunhi Mohammed, A.
+  journal: RILEM Technical Letters
+  details: 11, 89–100
+  doi: 10.21809/rilemtechlett.2026.238
+- id: J62
+  type: journal
+  status: published
+  year: 2026
+  title: Phase diagrams of ASR products from thermodynamic modeling
+  authors: Razki, S.*; Dias Reis, E.#; Bourdot, A.; Benboudjema, F.; Honorio, T.
+  journal: Cement and Concrete Research
+  details: 207, 108287
+  doi: 10.1016/j.cemconres.2026.108287
+- id: J61
+  type: journal
+  status: published
+  year: 2026
+  title: Effects of relative humidity on dissolution and carbonation potential of portlandite
+  authors: Saeki, N.*; Maruyama, I.; Honorio, T.
+  journal: Langmuir
+  details: 42 (9), 6745–6760
+  doi: 10.1021/acs.langmuir.5c05760
+- id: J60
+  type: journal
+  status: published
+  year: 2026
+  selected: true
+  title: Impedance and ionic conductivity of C-S-H
+  authors: Honorio, T.; Bonfim, W.B.*; Cascudo, O.
+  journal: Cement and Concrete Research
+  details: 201, 108123
+  doi: 10.1016/j.cemconres.2025.108123
+- id: J59
+  type: journal
+  status: published
+  year: 2025
+  title: Exploring crystallization pressure limits via molecular simulation
+  authors: Mahmoud Hawchar, B.*; Honorio, T.; Vandamme, M.; Osselin, F.; Pereira, J.-M.; Mercury, L.; Brochard, L.
+  journal: The Journal of Chemical Physics
+  details: 163, 214708
+  doi: 10.1063/5.0282117
+- id: J58
+  type: journal
+  status: published
+  year: 2025
+  title: The current situation of data and metadata management in construction materials research - emerging demands and viable solutions
+  authors: Manninger, T.; Georget, F.; Patel, R.; Honorio, T.; Keserle, G. C.; Wan-Wendner, R.; Nunes, S. B.
+  journal: RILEM Technical Letters
+  details: '10: 58-67'
+  doi: 10.21809/rilemtechlett.2025.219
+- id: J57
+  type: journal
+  status: published
+  year: 2025
+  selected: true
+  title: 'Thermal, mechanical, and transport properties of C-S-H at the molecular scale: a force field benchmark'
+  authors: Honorio, T.; Masara, F.*; Huang, G.#; Benboudjema, F.
+  journal: Cement
+  details: '20: 100143'
+  doi: 10.1016/j.cement.2025.100143
+- id: J56
+  type: journal
+  status: published
+  year: 2025
+  selected: true
+  title: Crystallization pressure in ASR expansion quantified by thermodynamic modelling and micromechanics
+  authors: Razki, S.*; Benboudjema, F.; Bourdot, A.; Langlois, S.; Fau, A.; Hafid, F.; Honorio, T.
+  journal: Cement and Concrete Research
+  details: 193, 107878
+  doi: 10.1016/j.cemconres.2025.107878
+- id: J55
+  type: journal
+  status: published
+  year: 2025
+  title: Experimental investigation of standardized conditioning and representative accelerated drying protocols on concrete spalling
+  authors: Sayari, T.*; Honorio, T.; Mohaine, S.; Robert, F.; Adia, J.-L.; Lion, M.; Gotteland, P.; Clergue, C.; d'Aloia, L.; Benboudjema, F.
+  journal: Fire and Materials
+  doi: 10.1002/fam.3291
+- id: J54
+  type: journal
+  status: published
+  year: 2025
+  title: Monocarboluminate desorption and thermoelastic properties
+  authors: Honorio, T.
+  journal: Journal of the American Ceramic Society
+  doi: 10.1111/jace.20246
+- id: J53
+  type: journal
+  status: published
+  year: 2024
+  title: 'Cavitation, hydrophilicity and sorption hysteresis in C-S-H pores: coupled effects of relative humidity and temperature'
+  authors: Masara, F.*; Benboudjema, F.; Honorio, T.
+  journal: Langmuir
+  doi: 10.1021/acs.langmuir.4c03223
+- id: J52
+  type: journal
+  status: published
+  year: 2024
+  title: H~2~ anisotropic subdiffusion and induced expansion in portlandite, gibbsite and boehmite
+  authors: Honorio, T.; Trifa, M.***; Herin, T.; Le Caer, S.
+  journal: The Journal of Physical Chemistry C
+  details: 128, 45, 19085–19097
+  doi: 10.1021/acs.jpcc.4c04681
+- id: J51
+  type: journal
+  status: published
+  year: 2024
+  title: Why sorption hysteresis in tobermorite is limited
+  authors: Honorio, T.; Benboudjema, F. Asamato, S.
+  journal: Microporous and Mesoporous Materials
+  details: '113205'
+  doi: 10.1016/j.micromeso.2024.113205
+- id: J50
+  type: journal
+  status: published
+  year: 2024
+  title: Thermal properties of ASR products
+  authors: Honorio, T.; Razki, S.*; Bourdot, A.; Benboudjema, F.
+  journal: Materials and Structures
+  details: 57 (5), 117
+  doi: 10.1617/s11527-024-02388-w
+- id: J49
+  type: journal
+  status: published
+  year: 2024
+  title: Atomic structure of nanocrystalline and amorphous ASR products
+  authors: Honorio, T.; Wei, W.
+  journal: Cement and Concrete Research
+  details: 181, 107521
+  doi: 10.1016/j.cemconres.2024.107521
+- id: J48
+  type: journal
+  status: published
+  year: 2024
+  selected: true
+  title: Permeability of C-S-H
+  authors: Honorio, T.
+  journal: Cement and Concrete Research
+  details: 176, 107408
+  doi: 10.1016/j.cemconres.2023.107408
+- id: J47
+  type: journal
+  status: published
+  year: 2024
+  title: Nanomechanics of ASR gels from coarse-grained simulations
+  authors: Ait Hamadouche, S**; Honorio, T.
+  journal: Journal of Engineering Mechanics
+  doi: 10.1061/JENMDT/EMENG-6926
+- id: J46
+  type: journal
+  status: published
+  year: 2023
+  title: Solubility of NaCl under anisotropic stress state
+  authors: Mahmoud Hawchar, B.*; Honorio, T.; Vandamme, M.; Osselin, F.; Pereira, J.-M.; Brochard, L.
+  journal: The Journal of Chemical Physics
+  details: 159(3) 034703
+  doi: 10.1063/5.0156229
+  note: Editor's Pick
+- id: J45
+  type: journal
+  status: published
+  year: 2023
+  title: Dielectric permittivity of C-S-H
+  authors: Ait Hamadouche, S*; Honorio, T.; Bore, T.; Benboudjema, F.; Daout, F.; Vourc'h, E.
+  journal: Cement and Concrete Research
+  details: 169, 107178
+  doi: 10.1016/j.cemconres.2023.107178
+- id: J44
+  type: journal
+  status: published
+  year: 2023
+  title: 'Surface water in C-S-H: effect of the temperature on (de)sorption'
+  authors: Honorio, T.; Masara, F.*; Poyet, S.; Benboudjema, F.
+  journal: Cement and Concrete Research
+  details: 169, 107179
+  doi: 10.1016/j.cemconres.2023.107179
+- id: J43
+  type: journal
+  status: published
+  year: 2023
+  title: Monitoring of Mortar Hydration Combining Microwave and Calorimetry Measurements
+  authors: Ferhat, M.*; Honorio, T.; Bore, T.; Benboudjema, F.; Daout, F.; Vourc'h, E.
+  journal: IEEE Transactions on Instrumentation & Measurement
+  details: 72, 1-11, 2023, 6002811
+  doi: 10.1109/TIM.2023.3256462
+- id: J42
+  type: journal
+  status: published
+  year: 2023
+  selected: true
+  title: 'Sorption in C-S-H at the molecular level: disjoining pressures, effective interactions, hysteresis, and cavitation'
+  authors: Masara, F.*; Honorio, T.; Benboudjema, F.
+  journal: Cement and Concrete Research
+  details: 164 107047
+  doi: 10.1016/j.cemconres.2022.107047
+- id: J41
+  type: journal
+  status: published
+  year: 2023
+  title: Machine Learning and Micromechanics as Allies to Correlate Composition-Property in Cement-Based Materials
+  authors: Honorio, T.; Ait Hamadouche, S**; Fau, A.
+  journal: Journal of Theoretical, Computational and Applied Mechanics
+  doi: 10.46298/jtcam.9830
+- id: J40
+  type: journal
+  status: published
+  year: 2022
+  title: 'Friedel''s salt: temperature dependence of thermoelastic properties'
+  authors: Honorio, T.; Carasek, H.; Cascudo, O.
+  journal: Cement and Concrete Research
+  details: 160 106904
+  doi: 10.1016/j.cemconres.2022.106904
+- id: J39
+  type: journal
+  status: published
+  year: 2022
+  title: 'Thermal conductivity of ettringite, heat capacity and thermal expansion of ettringite and metaettringite: effects of the relative humidity and temperature'
+  authors: Honorio, T.
+  journal: Cement and Concrete Research
+  details: 159, 106865
+  doi: 10.1016/j.cemconres.2022.106865
+- id: J38
+  type: journal
+  status: published
+  year: 2022
+  title: C-A-S-H thermoelastic properties at the molecular and gel scales
+  authors: Mahmoud Hawchar, B.**; Honorio, T.
+  journal: Journal of Advanced Concrete Technology
+  details: 20 (6), 375–388
+  doi: 10.3151/jact.20.375
+- id: J37
+  type: journal
+  status: published
+  year: 2022
+  title: Drained and undrained heat capacity of swelling clays
+  authors: Honorio, T.; Brochard, L.
+  journal: Physical Chemistry Chemical Physics
+  details: 24, 15003-15014
+  doi: 10.1039/D2CP01419J
+- id: J36
+  type: journal
+  status: published
+  year: 2022
+  title: 'Triclinic tricalcium silicate: structure and thermoelastic properties from molecular simulations'
+  authors: Barbosa, W.#; Honorio, T.
+  journal: Cement and Concrete Research
+  details: 158 106810
+  doi: 10.1016/j.cemconres.2022.106810
+- id: J35
+  type: journal
+  status: published
+  year: 2022
+  title: 'Water self-diffusion in C-S-H: effect of confinement and temperature studied by molecular dynamics'
+  authors: Honorio, T.; Carasek, H.; Cascudo, O.
+  journal: Cement and Concrete Research
+  details: 155, 106775
+  doi: 10.1016/j.cemconres.2022.106775
+- id: J34
+  type: journal
+  status: published
+  year: 2021
+  title: On structural Finite Element modelling strategies and their influence on the optimization of final constructability of RC structures
+  authors: Hervé-Sercougeon, G.; Hervé-Sercougeon, E.; Habib, S.; Razafimbelo, M.*; Bottoni, M.; Escoffier, F.; Mendoza-Chavez, G.; Kameh, A.; Voldoire, F.; Gatuingt, F.; Oliver-Leblond, C.; Honorio, T.;
+    Escoffier, F.; Nazé, P-A.; Chatzigogos, C.
+  journal: Nuclear Engineering and Design
+  details: 385, 111541
+  doi: 10.1016/j.nucengdes.2021.111541
+- id: J33
+  type: journal
+  status: published
+  year: 2021
+  title: Heat capacity, compressibility and thermal expansion of liquid water confined in C-S-H
+  authors: Honorio, T.; Masara, F.*; Benboudjema, F.
+  journal: Cement
+  details: 6, 100015
+  doi: 10.1016/j.cement.2021.100015
+- id: J32
+  type: journal
+  status: published
+  year: 2021
+  title: Ettringite hysteresis under sorption from molecular simulations
+  authors: Honorio, T.; Maaroufi, M.; Al Dandachli, S.**; Bourdot, A.
+  journal: Cement and Concrete Research
+  details: 150, 106587
+  doi: 10.1016/j.cemconres.2021.106587
+- id: J31
+  type: journal
+  status: published
+  year: 2021
+  title: Coupled Hydraulic, Mechanical and Dielectric investigations of fine grained soils during shrinkage
+  authors: Bore, T.; Mishra, P. N.; Wagner, N.; Schwing, M.; Honorio, T.; Revil, A.; Scheuermann, A.
+  journal: Engineering Geology
+  details: 294, 106352
+  doi: 10.1016/j.enggeo.2021.106352
+- id: J30
+  type: journal
+  status: published
+  year: 2021
+  selected: true
+  title: Advances in atomistic modelling and understanding of drying shrinkage in cementitious materials
+  authors: Abdolhosseini Qomi, M. J.; Brochard, L.; Honorio, T.; Maruyama, I.; Vandamme, M.
+  journal: Cement and Concrete Research
+  details: 148, 106536
+  doi: 10.1016/j.cemconres.2021.106536
+- id: J29
+  type: journal
+  status: published
+  year: 2021
+  title: 'Recommendations of RILEM TC 287-CCS: Thermo-chemo-mechanical modelling of massive concrete structures towards cracking risk assessment'
+  authors: Azenha, M.; Kanavaris, F.; Schlicke, D.; Jędrzejewska, A.; Benboudjema, F.; Honorio, T.; Šmilauer, V.; Serra, C.; Forth, J.; Riding, K.; Khada, B.; Sousa, C.; Briffaut, M.; Lacarrière, L.; Koendeers,
+    E.; Kanstad, T.; Klausen, A.; Torrenti, J.M.; Fairbairn, E.M.R.
+  journal: Materials and Structures
+  details: 54 (135)
+  doi: 10.1617/s11527-021-01732-8
+- id: J28
+  type: journal
+  status: published
+  year: 2021
+  title: 'Homogenization of nonaging basic creep of cementitious materials: a multiscale modeling benchmark'
+  authors: Königsberger, M.; Honorio, T; Sanahuja, J.; Delsaute, B.; Pichler, B. L.  A.
+  journal: Construction and Building Materials
+  details: 290, 123144
+  doi: 10.1016/j.conbuildmat.2021.123144
+- id: J27
+  type: journal
+  status: published
+  year: 2021
+  title: Thermo-poro-mechanics under adsorption applied to the anomalous thermal pressurization of water in undrained clays
+  authors: Brochard, L.; Honorio, T.
+  journal: Acta Geotechnica
+  doi: 10.1007/s11440-021-01188-8
+- id: J26
+  type: journal
+  status: published
+  year: 2021
+  title: 'Shear deformations in nanolayered silicates: the role of specific ion effects in the alkali-silica reaction products'
+  authors: Honorio, T.
+  journal: Materials and Structures
+  details: 54:86
+  doi: 10.1617/s11527-021-01671-4
+- id: J25
+  type: journal
+  status: published
+  year: 2021
+  title: 'Enhanced massivity index based on evidence from case studies: towards a robust pre-design assessment of early age thermal cracking risk and practical recommendations'
+  authors: Kanavaris, F.; Jędrzejewska, A.; Sfikas, I.; Schlicke, D.; Kuperman, S.; Šmilauer,V.; Honorio, T.; Fairbairn, E.M.R.; Valentim, G.; Funchal de Faria, E.; Azenha, M.
+  journal: Construction and Building Materials
+  details: 271, 121570
+  doi: 10.1016/j.conbuildmat.2020.121570
+- id: J24
+  type: journal
+  status: published
+  year: 2020
+  selected: true
+  title: 'Specific ion effects control the thermoelastic behavior of nanolayered materials: the case of crystalline alkali-silica reaction products'
+  authors: Honorio, T.; Chemgne Tamouya, O. M.***; Shi, Z.
+  journal: Physical Chemistry Chemical Physics
+  details: 22, 27800
+  doi: 10.1039/d0cp04955g
+- id: J23
+  type: journal
+  status: published
+  year: 2020
+  title: Intermolecular interactions of nanocrystalline alkali-silica reaction products under sorption
+  authors: Honorio, T.; Chemgne Tamouya, O. M.***; Shi, Z.; Bourdot, A.
+  journal: Cement and Concrete Research
+  details: 136, 106155
+  doi: 10.1016/j.cemconres.2020.106155
+- id: J22
+  type: journal
+  status: published
+  year: 2020
+  title: May self-diffusion of ions computed from molecular dynamics explain the electrical conductivity of pore solutions in cement-based materials?
+  authors: Honorio, T.; Carasek, H.; Cascudo, O.
+  journal: Materials and Structures
+  details: '53(3): 67'
+  doi: 10.1617/s11527-020-01507-7
+- id: J21
+  type: journal
+  status: published
+  year: 2020
+  title: Molecular simulation of the structure and elastic properties of ettringite and monosulfoaluminate
+  authors: Honorio, T.; Guerra, P.**; Bourdot, A.
+  journal: Cement and Concrete Research
+  details: 135, 106126
+  doi: 10.1016/j.cemconres.2020.106126
+- id: J20
+  type: journal
+  status: published
+  year: 2020
+  title: 'Revisiting thermo-poro-mechanics under adsorption: Formulation without assuming Gibbs-Duhem equation'
+  authors: Brochard, L.; Honorio, T.
+  journal: International Journal of Engineering Science
+  details: 152, 103296
+  doi: 10.1016/j.ijengsci.2020.103296
+- id: J19
+  type: journal
+  status: published
+  year: 2020
+  title: 'Electrical properties of cement-based materials: Multiscale modeling and quantification of the variability'
+  authors: Honorio, T.; Carasek, H.; Cascudo, O.
+  journal: Construction and Building Materials
+  details: 245, 118461
+  doi: 10.1016/j.conbuildmat.2020.118461
+- id: J18
+  type: journal
+  status: published
+  year: 2020
+  title: Dielectric properties of the pore solution in cement-based materials
+  authors: Honorio, T.; Bore, T.; Benboudjema, F.; Vourc'h, E.; Ferhat, M*
+  journal: Journal of Molecular Liquids
+  details: 302, 112548
+  doi: 10.1016/j.molliq.2020.112548
+- id: J17
+  type: journal
+  status: published
+  year: 2019
+  title: 'The pore solution of cement-based materials: structure and dynamics of water and ions from molecular simulations'
+  authors: Honorio, T.; Benboudjema, F.; Bore, T.; Ferhat, M.*; Vourc'h, E.
+  journal: Physical Chemistry Chemical Physics
+  details: 21, 11111-11121
+  doi: 10.1039/C9CP01577A
+- id: J16
+  type: journal
+  status: published
+  year: 2019
+  title: Monte Carlo molecular modelling of temperature and pressure effects on the interaction between crystalline calcium silicate hydrate layers
+  authors: Honorio, T.
+  journal: Langmuir
+  details: 35(11), 3907-3916
+  doi: 10.1021/acs.langmuir.8b04156
+- id: J15
+  type: journal
+  status: published
+  year: 2019
+  title: Molecular modelling of the heat capacity and anisotropic thermal expansion of nanoporous hydroxyapatite
+  authors: Honorio, T.; Lemaire, T.; Di Tommaso, D.; Naili, S.
+  journal: Materialia
+  details: 7, 100251
+  doi: 10.1016/j.mtla.2019.100251
+- id: J14
+  type: journal
+  status: published
+  year: 2019
+  title: Anomalous water and ion dynamics in hydroxyapatite mesopores
+  authors: Honorio, T.; Lemaire, T.; Di Tommaso, D.; Naili, S.
+  journal: Computational Materials Science
+  details: 156, 26-34
+  doi: 10.1016/j.commatsci.2018.08.060
+- id: J13
+  type: journal
+  status: published
+  year: 2018
+  selected: true
+  title: 'Flexibility of nanolayers and stacks: implications in the nanostructuration of clays'
+  authors: Honorio, T.; Brochard, L.; Vandamme, M.; Lebée, A.
+  journal: Soft Matter
+  details: 14, 7354-7367
+  doi: 10.1039/C8SM01359D
+- id: J12
+  type: journal
+  status: published
+  year: 2018
+  title: 'Statistical variability of mechanical fields in thermo-poro-elasticity: multiscale analytical estimations applied to cement-based materials at early-age'
+  authors: Honorio, T.; Brochard, L.; Bary, B.
+  journal: Cement and Concrete Research
+  details: 110, 24-41
+  doi: 10.1016/j.cemconres.2018.05.010
+- id: J11
+  type: journal
+  status: published
+  year: 2018
+  title: Effective stresses and estimations of the apparent Biot coefficient in stacked clay nanolayers
+  authors: Honorio, T.; Brochard, L.; Vandamme, M.
+  journal: Géotechnique Letters
+  details: 8 (2), 97-101
+  doi: 10.1680/jgele.17.00170
+- id: J10
+  type: journal
+  status: published
+  year: 2018
+  title: 'Thermal properties of cement-based materials: multiscale estimations at early-age'
+  authors: Honorio, T.; Bary, B; Benboudjema, F.
+  journal: Cement and Concrete Composites
+  details: 87, 205-219
+  doi: 10.1016/j.cemconcomp.2018.01.003
+- id: J9
+  type: journal
+  status: published
+  year: 2017
+  title: Numerical benchmark campaign of COST Action TU1404 -- microstructural modelling
+  authors: Wyrzykowski, M.; Knoppik-Wróbel, A.; Benboudjema, F.; Buffo-Lacariere, L.; Sanahuja, J.; Charpin, L.; Königsberger, M.; Hellmich, C.; Pichler, B.; Valentini, L.; Honório, T; Smilauer, V.; Hajkova,
+    K.G. Ye; Gao, P.; Dunant, C.; Hilaire, A.; Azenha, M.
+  journal: RILEM Technical Letters
+  details: 2, 99–107
+  doi: 10.21809/rilemtechlett.2017.44
+- id: J8
+  type: journal
+  status: published
+  year: 2017
+  selected: true
+  title: Hydration phase diagram of clays from molecular simulations
+  authors: Honorio, T.; Brochard, L.; Vandamme, M.
+  journal: Langmuir
+  details: 33 (44), 12766-12776
+  doi: 10.1021/acs.langmuir.7b03198
+- id: J7
+  type: journal
+  status: published
+  year: 2017
+  title: Nanoscale origin of the thermomechanical behavior of clays
+  authors: Brochard, L.; Honorio, T.; Vandamme, M.; Bornert, M.; Peigney, M.
+  journal: Acta Geotechnica
+  details: 12 (6), 1261-1279
+  doi: 10.1007/s11440-017-0596-3
+- id: J6
+  type: journal
+  status: published
+  year: 2017
+  title: Effective properties of n-coated composite spheres assemblage in an ageing viscoelastic framework
+  authors: Honorio, T.; Bary, B; Sanahuja, J.; Benboudjema, F.
+  journal: International Journal of Solids and Structures
+  details: 124, 1-13
+  doi: 10.1016/j.ijsolstr.2017.04.028
+- id: J5
+  type: journal
+  status: published
+  year: 2017
+  title: 'Micromechanics of transformation fields in ageing linear viscoelastic composites: effects of phase dissolution or precipitation'
+  authors: Honorio, T.
+  journal: Mechanics of Time-Dependent Materials
+  details: 21 (4), 597-612
+  doi: 10.1007/s11043-017-9344-1
+- id: J4
+  type: journal
+  status: published
+  year: 2016
+  title: 'Multiscale estimation of ageing viscoelastic properties of cement-based materials: a combined analytical and numerical approach to estimate the behaviour at early age'
+  authors: Honorio, T.; Bary, B; Benboudjema, F.
+  journal: Cement and Concrete Research
+  details: 85, 137-155
+  doi: 10.1016/j.cemconres.2016.03.010
+- id: J3
+  type: journal
+  status: published
+  year: 2016
+  title: Modeling hydration kinetics based on boundary nucleation and space-filling growth in a fixed confined zone
+  authors: Honorio, T.; Bary, B; Benboudjema, F.; Poyet, S.
+  journal: Cement and Concrete Research
+  details: 83, 31-44
+  doi: 10.1016/j.cemconres.2016.01.012
+- id: J2
+  type: journal
+  status: published
+  year: 2016
+  title: 'Factors affecting the thermo-chemo-mechanical behavior of massive concrete structures at early-age: a numerical study'
+  authors: Honorio, T.; Bary, B; Benboudjema, F.
+  journal: Materials and Structures
+  details: 49 (8), 3055–3073
+  doi: 10.1617/s11527-015-0704-5
+- id: J1
+  type: journal
+  status: published
+  year: 2014
+  title: Evaluation of the contribution of boundary and initial conditions in the chemo-thermal analysis of a massive concrete structure
+  authors: Honorio, T.; Bary, B; Benboudjema, F.
+  journal: Engineering Structures
+  details: 80, 173-188
+  doi: 10.1016/j.engstruct.2014.08.050
+- id: B3
+  type: chapter
+  status: published
+  year: 2019
+  title: Hydration and heat development
+  authors: Buffo-Lacarrière, L.; Knoppik-Wróbel, A.; Silva, W.; Honorio, T.; Smilauer, V.; Asamoto, S.; Fairbairn, E.
+  journal: Thermal Cracking of Massive Concrete Structures (Springer)
+  details: Chapter 2, 13–46
+  doi: 10.1007/978-3-319-76617-1_2
+- id: B2
+  type: chapter
+  status: published
+  year: 2019
+  title: Thermal properties
+  authors: Wyrzykowski, M.; Knoppik-Wróbel, A.; Silva, W.; Lura, P.; Honorio, T.; Ballim, Y.; Azenha, M.
+  journal: Thermal Cracking of Massive Concrete Structures (Springer)
+  details: Chapter 3, 46–67
+  doi: 10.1007/978-3-319-76617-1_3
+- id: B1
+  type: chapter
+  status: published
+  year: 2019
+  title: Mechanical properties
+  authors: Benboudjema, F.; Buffo-Lacarrière, L.; Knoppik-Wróbel, A.; Staquet, S.; Honorio, T.; Wyrzykowski, M.; Neiry de Mendonça Lopes, A.
+  journal: Thermal Cracking of Massive Concrete Structures (Springer)
+  details: Chapter 4, 69–114
+  doi: 10.1007/978-3-319-76617-1_4
+- id: HDR
+  type: thesis
+  status: published
+  year: 2023
+  title: Multi-Scale Multi-Physics Multi-Technique modeling for establishing composition-(micro)structure-property correlations in cement-based materials
+  authors: Honorio, T.
+  journal: Habilitation (HDR), Université Paris-Saclay
+  url: https://hal-centralesupelec.archives-ouvertes.fr/tel-04051504/
+- id: PhD
+  type: thesis
+  status: published
+  year: 2015
+  title: 'Modelling concrete behaviour at early-age: multiscale analysis and simulation of a massive disposal structure'
+  authors: Honorio, T.
+  journal: PhD thesis, École Normale Supérieure de Cachan
+  url: https://tel.archives-ouvertes.fr/tel-01241585

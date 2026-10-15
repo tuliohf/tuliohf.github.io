@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-head">
+  <h1>Curriculum vitae</h1>
+  <p class="lede">A summary. The full CV, with publications and supervision details, is available as a PDF.</p>
+  <p><a class="btn" href="{{ site.cv_pdf }}">Download CV (PDF)</a></p>
+</header>
+
+<section class="block two-col">
+  <div>
+    <h2>Positions</h2>
+    <table class="rows"><tbody>
+    {% for x in cv.positions %}<tr><td class="mono when">{{ x.when }}</td><td><strong>{{ x.what }}</strong><br><span class="muted">{{ x.where }}</span></td></tr>{% endfor %}
+    </tbody></table>
+  </div>
+  <div>
+    <h2>Education</h2>
+    <table class="rows"><tbody>
+    {% for x in cv.education %}<tr><td class="mono when">{{ x.when }}</td><td><strong>{{ x.what }}</strong><br><span class="muted">{{ x.where }}</span></td></tr>{% endfor %}
+    </tbody></table>
+  </div>
+</section>
+
+<section class="block">
+  <h2>Research funding</h2>
+  <div class="table-scroll">
+  <table class="rows funding">
+    <thead><tr><th>Years</th><th>Role</th><th>Project</th><th>Funder</th><th class="num">Amount</th></tr></thead>
+    <tbody>
+    {% for f in cv.funding %}
+      <tr><td class="mono when">{{ f.when }}</td><td><span class="tag{% if f.role == 'PI' %} tag-pi{% endif %}">{{ f.role }}</span></td>
+      <td>{% if f.url %}<a href="{{ f.url }}">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}</td><td class="muted">{{ f.funder }}</td><td class="num mono">{{ f.amount }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section class="block">
+  <h2>Selected invited talks and keynotes</h2>
+  <table class="rows"><tbody>
+  {% for t in cv.talks %}
+    <tr><td class="mono when">{{ t.when }}</td><td><span class="tag">{{ t.kind }}</span> <strong>{{ t.title }}</strong><br><span class="muted">{{ t.where }}</span></td></tr>
+  {% endfor %}
+  </tbody></table>
+</section>
+
+<section class="block two-col">
+  <div>
+    <h2>Awards</h2>
+    <table class="rows"><tbody>
+    {% for a in cv.awards %}<tr><td class="mono when">{{ a.when }}</td><td>{{ a.what }}</td></tr>{% endfor %}
+    </tbody></table>
+  </div>
+  <div>
+    <h2>Teaching</h2>
+    <table class="rows"><tbody>
+    {% for t in cv.teaching %}<tr><td class="mono when">{{ t.when }}</td><td><strong>{{ t.where }}</strong><br><span class="muted">{{ t.what }}</span></td></tr>{% endfor %}
+    </tbody></table>
+  </div>
+</section>
+<p class="muted">Supervision: see <a href="team.html">Team</a>. Committees and reviewing: see <a href="service.html">Service</a>.</p>
+{% endblock %}

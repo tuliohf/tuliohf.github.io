@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% from "_macros.html" import pub %}
+{% block content %}
+<header class="page-head">
+  <h1>Code &amp; Data</h1>
+  <p class="lede">Atomic structures, force-field inputs, datasets and benchmarks from my work, free to reuse. Please cite the associated papers.</p>
+</header>
+<div class="repos">
+  {% for c in code %}
+  <article class="repo">
+    <div class="repo-head">
+      <span class="tag">{{ 'Dataset' if c.kind == 'data' else 'Code' }}</span>
+      <h2><a href="{{ c.url }}">{{ c.name }}</a></h2>
+    </div>
+    <p>{{ c.description }}</p>
+    <p class="repo-tags mono">{% for t in c.tags %}<span>{{ t }}</span>{% endfor %}</p>
+    {% if c.paper_objs %}
+    <h3 class="sub">Cite</h3>
+    <ol class="pubs compact">{% for p in c.paper_objs %}{{ pub(p, show_id=false) }}{% endfor %}</ol>
+    {% endif %}
+    <a class="btn ghost" href="{{ c.url }}">View on GitHub</a>
+  </article>
+  {% endfor %}
+</div>
+{% endblock %}

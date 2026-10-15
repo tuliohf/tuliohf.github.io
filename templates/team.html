@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block content %}
+{% set postdocs = team | selectattr('role', 'equalto', 'postdoc') | list %}
+{% set phds = team | selectattr('role', 'equalto', 'phd') | list %}
+{% set visitors = team | selectattr('role', 'equalto', 'visiting') | list %}
+{% set masters = team | selectattr('role', 'equalto', 'master') | list %}
+{% set ugs = team | selectattr('role', 'equalto', 'undergrad') | list %}
+<header class="page-head">
+  <h1>Team</h1>
+  <p class="lede">Postdocs, PhD students and interns I have supervised or co-supervised since 2015.</p>
+  <ul class="facts">
+    <li><span class="fact-v">{{ postdocs|length }}</span><span class="fact-l">postdocs</span></li>
+    <li><span class="fact-v">{{ phds|length }}</span><span class="fact-l">PhD students ({{ phds|selectattr('status','equalto','past')|list|length }} defended)</span></li>
+    <li><span class="fact-v">{{ visitors|length }}</span><span class="fact-l">visiting researchers</span></li>
+    <li><span class="fact-v">{{ masters|length + ugs|length }}</span><span class="fact-l">master and undergraduate projects</span></li>
+  </ul>
+</header>
+
+{% macro person(m) -%}
+<li class="person">
+  <div class="person-head">
+    <span class="person-name">{{ m.name }}</span>
+    <span class="person-years mono">{{ m.years }}</span>
+  </div>
+  <p class="person-topic">{{ m.topic }}</p>
+  <p class="person-meta">
+    {% if m.level %}{{ m.level | capitalize }} visitor from {{ m.from }}{% endif %}
+    {% if m.with %}With {{ m.with }}{% endif %}{% if m.funding %} · {{ m.funding }}{% endif %}
+  </p>
+  {% if m.award %}<p class="person-meta award">{{ m.award }}</p>{% endif %}
+  {% if m.now %}<p class="person-now"><span class="eyebrow">Now</span> {{ m.now }}</p>{% endif %}
+</li>
+{%- endmacro %}
+
+<section class="block">
+  <h2>Current</h2>
+  <ul class="people">
+    {% for m in postdocs + phds if m.status == 'current' %}{{ person(m) }}{% endfor %}
+  </ul>
+</section>
+<section class="block">
+  <h2>Former postdocs</h2>
+  <ul class="people">{% for m in postdocs if m.status == 'past' %}{{ person(m) }}{% endfor %}</ul>
+</section>
+<section class="block">
+  <h2>Defended PhD theses</h2>
+  <ul class="people">{% for m in phds if m.status == 'past' %}{{ person(m) }}{% endfor %}</ul>
+</section>
+<section class="block">
+  <h2>Visiting researchers</h2>
+  <ul class="people">{% for m in visitors %}{{ person(m) }}{% endfor %}</ul>
+</section>
+<section class="block two-col">
+  <div>
+    <h2>Master projects</h2>
+    <ul class="mini-list">{% for m in masters %}<li><span class="mono">{{ m.years }}</span> <strong>{{ m.name }}</strong>. {{ m.topic }}</li>{% endfor %}</ul>
+  </div>
+  <div>
+    <h2>Undergraduate projects</h2>
+    <ul class="mini-list">{% for m in ugs %}<li><span class="mono">{{ m.years }}</span> <strong>{{ m.name }}</strong>. {{ m.topic }}</li>{% endfor %}</ul>
+  </div>
+</section>
+{% endblock %}

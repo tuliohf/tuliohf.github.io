@@ -1,0 +1,49 @@
+{% macro pub(p, show_id=true) -%}
+<li class="pub" id="{{ p.id }}">
+  {% if show_id %}<span class="pub-id mono">{{ p.id }}</span>{% endif %}
+  <div class="pub-body">
+    <span class="pub-title">{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% elif p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>
+    <span class="pub-authors">{{ p.authors | authors }}</span>
+    <span class="pub-venue">
+      {% if p.journal %}<em>{{ p.journal }}</em>{% endif %}{% if p.details %} {{ p.details }}{% endif %}{% if p.year %} ({{ p.year }}){% endif %}
+      {% if p.status != 'published' %}<span class="tag tag-status">{{ p.status }}</span>{% endif %}
+      {% if p.note %}<span class="tag">{{ p.note }}</span>{% endif %}
+      {% if p.doi %}<a class="doi mono" href="https://doi.org/{{ p.doi }}">doi:{{ p.doi }}</a>{% endif %}
+    </span>
+  </div>
+</li>
+{%- endmacro %}
+
+{% macro figure(pr) -%}
+{% if pr.image %}
+<img class="proj-fig" src="{{ pr.image }}" alt="{{ pr.figure_hint }}" loading="lazy">
+{% else %}
+<div class="proj-fig placeholder" role="img" aria-label="Figure placeholder: {{ pr.figure_hint }}">
+  <span class="ph-label mono">Figure</span>
+  <span class="ph-hint">{{ pr.figure_hint }}</span>
+  <span class="ph-path mono">assets/img/projects/{{ pr.id }}.jpg</span>
+</div>
+{% endif %}
+{%- endmacro %}
+
+{% macro scale_chart(projects) -%}
+<figure class="scales" aria-label="Length scales covered by each project">
+  <div class="scales-grid">
+    {% for pr in projects %}
+    <a class="scale-row" href="research.html#{{ pr.id }}">
+      <span class="scale-name">{{ pr.title }}</span>
+      <span class="scale-track"><span class="scale-bar" style="left:{{ pr.span[0] }}%;width:{{ [pr.span[1]-pr.span[0], 2] | max }}%"></span></span>
+    </a>
+    {% endfor %}
+    <div class="scale-row scale-axis" aria-hidden="true">
+      <span class="scale-name"></span>
+      <span class="scale-track">
+        {% for label, x in [('Å', 0), ('nm', 10), ('µm', 40), ('mm', 70), ('m', 100)] %}
+        <span class="tick mono" style="left:{{ x }}%">{{ label }}</span>
+        {% endfor %}
+      </span>
+    </div>
+  </div>
+  <figcaption>Length scales covered by each project, from atoms (10⁻¹⁰ m) to structures (1 m), log scale.</figcaption>
+</figure>
+{%- endmacro %}

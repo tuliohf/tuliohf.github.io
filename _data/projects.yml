@@ -1,0 +1,93 @@
+# Ongoing projects. Shown as cards on the home page and in full on the Research page.
+# image: path to a figure in assets/img/projects/ (leave empty to show a placeholder)
+# papers: ids from publications.yml
+- id: asr
+  title: Alkali–silica reaction
+  scale: "Å → mm"
+  summary: Atomic structures, thermodynamics and expansion mechanisms of ASR products, from crystalline phases to mortar.
+  image: ""
+  figure_hint: Crystalline ASR product structure or phase diagram
+  body: >-
+    The alkali–silica reaction forms layered silicate products whose growth in confined pores
+    damages concrete. We build atomic models of crystalline ASR products (shlykovite, kanemite,
+    magadiite and related phases), derive their thermodynamic and thermoelastic data, and use them
+    in phase diagrams and micromechanical estimates of crystallization pressure. Synthesis and
+    NMR characterization of the products close the loop with experiments.
+  people: [Elvys Dias Reis, Syrine Razki, Thibault Charpentier, Alexandra Bourdot, Farid Benboudjema]
+  funding: [ANR/CEA – Mastering the expansion in ASR (PI), ANR HEAT COFFEE]
+  papers: [J64, J62, J56, J50, J49, J24]
+
+- id: csh-cg
+  title: Coarse-grained C-S-H
+  scale: "nm → µm"
+  summary: Mesostructure, creep and transport of the C-S-H gel from coarse-grained and molecular simulations.
+  image: ""
+  figure_hint: Snapshot of the coarse-grained C-S-H mesostructure
+  body: >-
+    C-S-H is the main binding phase of concrete and controls its creep, shrinkage and transport.
+    We represent C-S-H particles as flexible multi-site objects to simulate the gel mesostructure,
+    and link the dynamics of confined water to macroscopic behaviour, such as the power-law creep
+    that emerges from subdiffusive water dynamics.
+  people: [Fatima Masara, Farid Benboudjema]
+  funding: []
+  papers: [J66, J57, J48, J47, J13]
+
+- id: pce
+  title: Superplasticizers (PCE)
+  scale: "Å → nm"
+  summary: Atomistic and coarse-grained models of polycarboxylate ether superplasticizers and their adsorption on cement phases.
+  image: ""
+  figure_hint: All-atom or coarse-grained PCE molecule on a mineral surface
+  body: >-
+    Polycarboxylate ether (PCE) superplasticizers control the workability of modern concretes,
+    including low-clinker mixes. We generate realistic all-atom PCE architectures and study their
+    conformation and adsorption on cement and clay surfaces, as input to coarse-grained models of
+    particle interactions and rheology.
+  people: [Ana Paula Kirchheim]
+  funding: []
+  papers: []
+
+- id: irradiation
+  title: Irradiation of aggregates
+  scale: "Å → m"
+  summary: Radiation-induced volumetric expansion (RIVE) of aggregate minerals and hydrogen transport in irradiated hydrates.
+  image: ""
+  figure_hint: Amorphized quartz cell or RIVE vs. dose curve
+  body: >-
+    Concrete near nuclear reactors is exposed to neutron and gamma radiation. Using molecular dynamics,
+    we quantify radiation-induced volumetric expansion in the minerals of concrete aggregates (quartz,
+    feldspars, micas, inosilicates) and study H₂ transport in irradiated hydrates. These results feed
+    mesoscale simulations and simplified models of irradiated concrete.
+  people: [Hazem Ferchichi, Abderrahmane Lahmar, Stéphane Poyet, Benoît Bary, Paul Fossati, Sophie Le Caër]
+  funding: [CEA]
+  papers: [J52, J69]
+
+- id: clay-diffusion
+  title: Water and ions in clays
+  scale: "Å → nm"
+  summary: Anomalous diffusion, swelling and thermo-poromechanics of water and counterions confined in swelling clays.
+  image: ""
+  figure_hint: Montmorillonite interlayer with water and counterions, or MSD curves
+  body: >-
+    Swelling clays confine water and ions in nanometric interlayers. We show that their transport is
+    subdiffusive and describe it with fractional diffusion laws, and we study how counterions control
+    disjoining and swelling pressure. The same framework explains anomalous thermal pressurization and
+    heat capacity in clays.
+  people: [Laurent Brochard, Matthieu Vandamme]
+  funding: []
+  papers: [J67, J37, J27, J13, J8, J7]
+
+- id: low-carbon
+  title: Low-carbon concrete
+  scale: "nm → m"
+  summary: Composition–property links for low-clinker binders, combining thermodynamic modeling, micromechanics and data.
+  image: ""
+  figure_hint: Phase assemblage or property map of a blended binder
+  body: >-
+    Reducing the clinker content of concrete changes its hydrates, microstructure and durability.
+    We connect binder composition to properties using thermodynamic modeling, micromechanics and
+    machine learning, and study new hydrates such as M-(A)-S-H and the electrical response of C-S-H
+    for non-destructive monitoring of low-carbon cement systems.
+  people: [Fatima Masara, Walter Batista Bonfim, Oswaldo Cascudo, Thibault Charpentier]
+  funding: []
+  papers: [J60, J61, J41]

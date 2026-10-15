@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% from "_macros.html" import pub, figure, scale_chart %}
+{% block content %}
+<section class="hero">
+  <div class="hero-text">
+    <p class="eyebrow">{{ site.role }} · {{ site.institution }}</p>
+    <h1>{{ site.full_name }}</h1>
+    <p class="lede">{{ site.bio }}</p>
+    <p>{{ site.bio_extra }}</p>
+    <ul class="facts">
+      {% for f in site.facts %}<li><span class="fact-v">{{ f.value }}</span><span class="fact-l">{{ f.label }}</span></li>{% endfor %}
+    </ul>
+    <p class="hero-links">
+      <a class="btn" href="{{ site.cv_pdf }}">CV (PDF)</a>
+      {% for p in site.profiles[:4] %}<a href="{{ p.url }}">{{ p.name }}</a>{% endfor %}
+    </p>
+  </div>
+  <img class="portrait" src="assets/img/portrait.jpg" alt="Portrait of {{ site.name }}" width="480" height="600">
+</section>
+
+<section class="block">
+  <div class="block-head">
+    <h2>Ongoing projects</h2>
+    <a class="more" href="research.html">All research</a>
+  </div>
+  <div class="cards">
+    {% for pr in projects %}
+    <a class="card" href="research.html#{{ pr.id }}">
+      {{ figure(pr) }}
+      <span class="card-scale mono">{{ pr.scale }}</span>
+      <h3>{{ pr.title }}</h3>
+      <p>{{ pr.summary }}</p>
+    </a>
+    {% endfor %}
+  </div>
+  {{ scale_chart(projects) }}
+</section>
+
+<div class="split">
+  <section class="block">
+    <div class="block-head">
+      <h2>Recent papers</h2>
+      <a class="more" href="publications.html">Full list</a>
+    </div>
+    <ol class="pubs">
+      {% for p in recent %}{{ pub(p, show_id=false) }}{% endfor %}
+    </ol>
+  </section>
+  <section class="block">
+    <div class="block-head"><h2>News</h2></div>
+    <ul class="news">
+      {% for n in site.news %}
+      <li><span class="news-date mono">{{ n.date }}</span><span>{% if n.link %}<a href="{{ n.link }}">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}</span></li>
+      {% endfor %}
+    </ul>
+    <div class="callout">
+      <p class="eyebrow">Community</p>
+      <p>Chair of <a href="service.html#rilem">RILEM TC ASM</a>, Atomistic Simulations for Cement-Based Materials: recommendations and link to experiments.</p>
+    </div>
+  </section>
+</div>
+{% endblock %}

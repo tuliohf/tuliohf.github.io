@@ -1,0 +1,19 @@
+# Shared code and datasets. kind: data | code
+- name: Cement_Molecular
+  kind: data
+  url: https://github.com/tuliohf/Cement_Molecular
+  description: Atomic structures and force fields for molecular simulations of cement phases, including AFt/AFm phases (ettringite, metaettringite, Friedel's salt) and crystalline ASR products.
+  tags: [LAMMPS, ClayFF, atomic structures]
+  papers: [J21, J39, J40, J64]
+- name: Concrete Data Initiative (CDI)
+  kind: data
+  url: https://github.com/tuliohf/cdi
+  description: Open datasets on cement-based materials, including elastic properties of OPC pastes and thermo-mechanical properties of water confined in C-S-H.
+  tags: [dataset, C-S-H, micromechanics]
+  papers: [J33, J41]
+- name: benchmeso
+  kind: code
+  url: https://github.com/tuliohf/benchmeso
+  description: Benchmark of mesoscale modelling of concrete, associated with RILEM TC 287-CCS on early-age and long-term crack width analysis in RC structures.
+  tags: [benchmark, mesoscale, RILEM]
+  papers: [J29]

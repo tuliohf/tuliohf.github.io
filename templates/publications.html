@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% from "_macros.html" import pub %}
+{% block content %}
+<header class="page-head">
+  <h1>Publications</h1>
+  <p class="lede">{{ n_journal }} journal articles, {{ chapters|length }} book chapters. Full and up-to-date list on <a href="{{ site.profiles[0].url }}">Google Scholar</a>.</p>
+  <p class="legend">Trainees I supervised:
+    {% for k, v in marks.items() %}<span><sup class="mark">{{ k }}</sup> {{ v }}</span>{% endfor %}
+  </p>
+</header>
+
+<div class="filter" role="tablist" aria-label="Show">
+  <button type="button" id="f-all" role="tab" aria-selected="true" data-filter="all">All</button>
+  <button type="button" id="f-sel" role="tab" aria-selected="false" data-filter="selected">Selected ({{ selected|length }})</button>
+  <label class="search"><span class="visually-hidden">Search publications</span>
+    <input id="pub-search" type="search" placeholder="Search title, author, journal">
+  </label>
+</div>
+
+<div data-group="selected" hidden>
+  <section class="pub-section">
+    <h2 class="year">Selected</h2>
+    <ol class="pubs">{% for p in selected %}{{ pub(p) }}{% endfor %}</ol>
+  </section>
+</div>
+
+<div data-group="all">
+  {% if pending %}
+  <section class="pub-section">
+    <h2 class="year">Submitted</h2>
+    <ol class="pubs">{% for p in pending %}{{ pub(p) }}{% endfor %}</ol>
+  </section>
+  {% endif %}
+  {% for y, items in years.items() %}
+  <section class="pub-section">
+    <h2 class="year">{{ y }} <span class="count mono">{{ items|length }}</span></h2>
+    <ol class="pubs">{% for p in items %}{{ pub(p) }}{% endfor %}</ol>
+  </section>
+  {% endfor %}
+  <section class="pub-section">
+    <h2 class="year">Book chapters</h2>
+    <ol class="pubs">{% for p in chapters %}{{ pub(p) }}{% endfor %}</ol>
+  </section>
+  <section class="pub-section">
+    <h2 class="year">Theses</h2>
+    <ol class="pubs">{% for p in theses %}{{ pub(p) }}{% endfor %}</ol>
+  </section>
+</div>
+<p class="empty" id="pub-empty" hidden>No publication matches this search.</p>
+{% endblock %}
+{% block scripts %}
+<script>
+(function () {
+  var btns = document.querySelectorAll('.filter button');
+  var groups = document.querySelectorAll('[data-group]');
+  var q = document.getElementById('pub-search');
+  var empty = document.getElementById('pub-empty');
+  var mode = 'all';
+  function apply() {
+    var term = q.value.trim().toLowerCase();
+    var shown = 0;
+    groups.forEach(function (g) {
+      var active = g.dataset.group === mode;
+      g.hidden = !active;
+      if (!active) return;
+      g.querySelectorAll('.pub-section').forEach(function (sec) {
+        var n = 0;
+        sec.querySelectorAll('.pub').forEach(function (li) {
+          var hit = !term || li.textContent.toLowerCase().indexOf(term) !== -1;
+          li.hidden = !hit; if (hit) n++;
+        });
+        sec.hidden = n === 0; shown += n;
+      });
+    });
+    empty.hidden = shown !== 0;
+  }
+  btns.forEach(function (b) {
+    b.addEventListener('click', function () {
+      mode = b.dataset.filter;
+      btns.forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+      apply();
+    });
+  });
+  q.addEventListener('input', apply);
+})();
+</script>
+{% endblock %}

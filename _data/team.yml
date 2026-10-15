@@ -1,0 +1,49 @@
+# Advisees. Add `now:` (current position) to past members — reviewers look for it.
+# role: postdoc | phd | visiting | master | undergrad ; status: current | past
+- {name: Fatima Masara, role: postdoc, status: current, years: 2026–, topic: "Structure and elastic properties of (alumino)silicates of magnesium hydrates (M-(A)-S-H)", with: "T. Charpentier (CEA)", funding: CEA}
+- {name: Elvys Dias Reis, role: postdoc, status: past, years: 2025–2026, topic: "Mechanisms of expansion in alkali-silica reaction: a bottom-up approach", with: "F. Benboudjema, A. Bourdot (ENS Paris-Saclay)", funding: ANR HEAT COFFEE, now: ""}
+- {name: Justin Kinda, role: postdoc, status: past, years: 2023–2024, topic: "Experimental evaluation of thermal-sorption coupled deformations in cement-based materials", with: "F. Benboudjema (LMPS)", funding: ANR THEDESCO, now: ""}
+- {name: Gang Huang, role: postdoc, status: past, years: 2023–2024, topic: "Engineering model for the temperature- and RH-dependence of thermal expansion and heat capacity of concrete", with: "F. Benboudjema (LMPS)", funding: ANR THEDESCO, now: ""}
+
+- {name: Abderrahmane Lahmar, role: phd, status: current, years: 2025–, topic: "Mesoscopic simulations and simplified models for the mechanical behaviour of irradiated concrete", with: "B. Bary (dir.)", funding: CEA}
+- {name: Hazem Ferchichi, role: phd, status: current, years: 2024–, topic: "Impact of irradiation in cement-based materials: contribution of atomistic methods", with: "S. Poyet (dir.), P. Fossati", funding: CEA}
+- {name: Shuai Cheng, role: phd, status: current, years: 2023–, topic: "Mesoscale study of the delayed behaviour of concrete at 150 °C", with: "B. Bary (dir.), S. Poyet, F. Hild (LMPS), J. Sanahuja, J.-L. Adia (EDF R&D)", funding: CEA / EDF}
+- {name: Syrine Razki, role: phd, status: current, years: 2023–, topic: "Multiscale characterization of degradation by accelerated aging of concrete foundations", with: "F. Benboudjema (dir.), A. Bourdot (LMPS), F. Hafid (RTE)", funding: ANR HEAT COFFEE}
+- {name: Bilal Mahmoud Hawchar, role: phd, status: past, years: 2022–2025, topic: "Crystallization pressure by molecular simulation and microfluidics experiments", with: "L. Brochard (dir.), M. Vandamme, J.-M. Pereira (ENPC), L. Mercury, F. Osselin (ISTO)", funding: CNRS 80 Prime, now: ""}
+- {name: Sofiane Ait-Hamadouche, role: phd, status: past, years: 2021–2024, topic: "Broad-band dielectric approach for the non-destructive evaluation of hydration of cement-based materials", with: "E. Vourc'h (dir.), F. Daout (SATIE), F. Benboudjema (LMPS)", funding: IDEX LaSIPS, now: ""}
+- {name: Fatima Masara, role: phd, status: past, years: 2021–2024, topic: "Multiscale modelling of the thermo-hygro-mechanical response of concrete informed by the molecular scale", with: "F. Benboudjema (LMPS)", funding: ANR THEDESCO, now: "Postdoc, CEA Paris-Saclay"}
+- {name: Takwa Sayari, role: phd, status: past, years: 2019–2023, topic: "Kinetics of drying in concrete: achieving water content equilibrium in fire behaviour tests", with: "F. Benboudjema (dir.), F. Robert, S. Mohaine (CERIB)", funding: CERIB, award: "Special prize of the National Federation of Public Works (2022)", now: ""}
+- {name: Mihaja Razafimbelo, role: phd, status: past, years: 2019–2022, topic: "Optimization of the reinforcement in massive zones of reinforced concrete under complex loadings", with: "F. Gatuingt (dir.), M. Bottoni, G. Hervé-Secourgeon (EDF R&D)", funding: EDF R&D, now: ""}
+- {name: Pascale Saba, role: phd, status: past, years: 2018–2022, topic: "Mechanics of cement-based composites reinforced by glass-fibre grids", with: "F. Benboudjema (dir.), X. Brajer (Saint-Gobain Research)", funding: Saint-Gobain, now: ""}
+
+- {name: Walter Batista Bonfim, role: visiting, status: past, years: 2026, level: doctoral, from: "Federal University of Goiás, Brazil", topic: "Impedance of C-S-H and multiscale models of electrical properties for low-carbon cement systems"}
+- {name: Naohiko Saeki, role: visiting, status: past, years: 2024–2025, level: doctoral, from: "University of Tokyo, Japan", topic: "Carbonation of C-S-H"}
+- {name: Waleska Barbosa, role: visiting, status: past, years: 2020, level: postdoctoral, from: "Federal University of Paraná, Brazil", topic: "Substitutions and symmetry transitions in tricalcium silicates"}
+- {name: Saied Babaei, role: visiting, status: past, years: 2020, level: doctoral, from: "SCK CEN / University of Antwerp, Belgium", topic: "Micromechanics of drying and thermal shrinkage in cement-based materials"}
+
+- {name: Syrine Razki, role: master, years: 2023, topic: "Predicting expansion by external sulphate attack using thermodynamic modelling"}
+- {name: Bilal Mahmoud Hawchar, role: master, years: 2022, topic: "Origins of crystallization pressure by molecular simulations"}
+- {name: Loric Renault, role: master, years: 2021, topic: "Optimizing the packing density of aggregates in concrete using simulations and machine learning"}
+- {name: Dikra Afkir, role: master, years: 2021, topic: "Topology optimization of the reinforcement in cement-based materials"}
+- {name: Mohamad Khoder, role: master, years: 2021, topic: "Concrete with seashell aggregates: characterization and micromechanical modelling"}
+- {name: Sofiane Ait Hamadouche, role: master, years: 2021, topic: "Nanomechanics of C-S-H and ASR gels by coarse-grained simulations"}
+- {name: Fatima Masara, role: master, years: 2020, topic: "Thermal pressurization and effective interactions in C-S-H under sorption"}
+- {name: Estefanía Nuñez Del Prado, role: master, years: 2020, topic: "Sorption hysteresis and RH-dependent elastic constants of C-S-H"}
+- {name: Nejd Hammami, role: master, years: 2020, topic: "Influence of seashell aggregate shape on concrete properties"}
+- {name: Percy Guerra, role: master, years: 2019, topic: "Dimensional stability of ettringite: RH and temperature dependencies"}
+- {name: Reine Fares, role: master, years: 2015, topic: "Multiscale thermo-viscoelastic properties of concrete at early age"}
+
+- {name: Marwane Triffa, role: undergrad, years: 2022, topic: "Portlandite under irradiation: mechanisms of H₂ diffusion"}
+- {name: Bilal Mahmoud Hawchar, role: undergrad, years: 2021, topic: "C-A-S-H structure and properties"}
+- {name: Marc Vacher, role: undergrad, years: 2020, topic: "Cement-based composites with seashell fillers"}
+- {name: Sofiane Ait-Hamadouche, role: undergrad, years: 2020, topic: "Machine learning for the mix design of cement pastes with a target elastic response"}
+- {name: Wassi Hussain, role: undergrad, years: 2020, topic: "Hydration and phases of pastes with seashell"}
+- {name: Ornella M. Chemgne Tamouya, role: undergrad, years: 2019, topic: "Molecular modelling of alkali-silica reaction products"}
+- {name: Estefanía Nuñez Del Prado, role: undergrad, years: 2019, topic: "Molecular modelling of the elastic constants of C-S-H"}
+- {name: Sirine Al-Dandachli, role: undergrad, years: 2019, topic: "Energy storage in ettringite from molecular simulations"}
+- {name: Thibault Ronzaud, role: undergrad, years: 2019, topic: "Shells as concrete aggregates: experimental and micromechanics study"}
+- {name: Rodrigo Yanez, role: undergrad, years: 2019, topic: "Effects of drying in concrete structure layouts from topology optimization"}
+- {name: Percy Guerra, role: undergrad, years: 2018, topic: "Ettringite physical properties from in silico experiments"}
+- {name: Samy Ben-Hamoudi, role: undergrad, years: 2018, topic: "Hydrodynamics in C-S-H nanopores"}
+- {name: Martin Pegeot, role: undergrad, years: 2018, topic: "Topology optimization of reinforcement in rendering mortars"}
+- {name: Quentin Laurent, role: undergrad, years: 2018, topic: "Evolution of the capillary porosity of cement pastes at early age"}

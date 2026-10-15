@@ -1,0 +1,86 @@
+positions:
+  - {when: "2023–", what: "Research Engineer (Senior Expert since 2025)", where: "Concrete and Clay Laboratory, CEA Paris-Saclay"}
+  - {when: "2018–2023", what: "Associate Professor", where: "Dept. of Civil and Environmental Engineering, ENS Paris-Saclay"}
+  - {when: "2017–2018", what: "Postdoc / Teaching Assistant", where: "MSME Lab., Université Paris-Est Créteil"}
+  - {when: "2015–2017", what: "Postdoctoral Researcher", where: "Navier Laboratory, École des Ponts ParisTech"}
+
+education:
+  - {when: "2023", what: "Habilitation (HDR)", where: "Université Paris-Saclay"}
+  - {when: "2015", what: "PhD, Civil Engineering and Mechanics (with honours)", where: "ENS Cachan / CEA Saclay"}
+  - {when: "2012", what: "MSc, Materials Science for Sustainable Construction", where: "École des Ponts ParisTech"}
+  - {when: "2010", what: "BEng, Civil Engineering", where: "Federal University of Goiás, Brazil"}
+
+funding:
+  - {when: "2024–2026", role: PI, name: "Mastering the expansion in alkali-silica reaction", funder: "ANR / CEA", amount: "65 k€"}
+  - {when: "2019–2025", role: PI, name: "THEDESCO: Thermal deformations of concrete", funder: "ANR JCJC", amount: "284 k€", url: "https://anr.fr/Projet-ANR-19-CE22-0004"}
+  - {when: "2020", role: Co-PI, name: "Capillary flow porometer for multidisciplinary applications", funder: "DIM RESPORE (Île-de-France)", amount: "60 k€"}
+  - {when: "2023–2027", role: CI, name: "HEAT COFFEE: Health evaluation of concrete foundations for electricity transport", funder: "ANR Industrial Chairs", amount: "1 M€", url: "https://anr.fr/Projet-ANR-22-CHIN-0007"}
+  - {when: "2022–2025", role: CI, name: "ESOPE: Damage by salts, origins of the crystallization pressure", funder: "CNRS 80 Prime", amount: "115 k€"}
+  - {when: "2021–2024", role: CI, name: "HYDRA: Broad-band dielectric approach for the evaluation of cement hydration", funder: "IDEX LaSIPS", amount: "115 k€"}
+
+awards:
+  - {when: "2024", what: "Outstanding Researcher from Goiás Recognized Abroad, FAPEG (Brazil)"}
+  - {when: "2021", what: "PEDR – premium for doctoral supervision and research"}
+  - {when: "2015", what: "PhD with honours"}
+  - {when: "2011", what: "Lafarge scholarship for the MSc at École des Ponts ParisTech"}
+
+talks:
+  - {when: "Nov 2025", kind: Keynote, title: "Sorption and sorption-induced deformation in cement systems", where: "II Int. Conf. on Atomistic Simulation of Cementitious Materials (ICASCM), Nanjing, China"}
+  - {when: "Jun 2025", kind: Keynote, title: "Molecular modelling as enabling technology for decarbonization of the cement industry", where: "II Brazilian Symposium of Cement Science, São Paulo, Brazil"}
+  - {when: "Jan 2025", kind: Invited seminar, title: "Water in concrete nanopores: from durability to creep", where: "LGCgE, Université de Lille"}
+  - {when: "Dec 2024", kind: Invited seminar, title: "Matériaux cimentaires", where: "Saint-Gobain workshop « Les atomes, pour quoi faire ? », La Défense"}
+  - {when: "Jun 2023", kind: Keynote, title: "Deciphering nanoscale processes to understand and design for durability", where: "V RILEM Int. Seminar DURAR 2023, Goiânia, Brazil"}
+  - {when: "Jun 2023", kind: Invited talk, title: "Getting interlayer and surface species in C-S-H right to better understand durability of concrete", where: "USERS-CNRS IRN on Urban Physics (online)"}
+  - {when: "May 2023", kind: Advanced school, title: "Analytical approaches to homogenization micro-to-meso", where: "ETN SUBLime, TU Delft"}
+  - {when: "Mar 2022", kind: Invited talk, title: "Multiphysics behaviour of porous materials from the molecular scale", where: "Quartz Lab, SupMéca"}
+  - {when: "Mar 2020", kind: Advanced school, title: "Molecular simulations of nanoporous materials", where: "ETN ATHOR"}
+  - {when: "Feb 2020", kind: Invited talk, title: "How molecular simulations may explain multiphysics phenomena in concrete and clays?", where: "The University of Queensland, Brisbane"}
+  - {when: "May 2019", kind: Invited talk, title: "Water in cement-based materials", where: "Thomas Young Centre, London"}
+  - {when: "May 2019", kind: Advanced school, title: "Multiscale methods", where: "CSMA Juniors, Porquerolles"}
+
+teaching:
+  - {when: "2018–2023", where: "ENS Paris-Saclay", what: "Multiscale modelling (MSc), complex media, numerical methods, soil mechanics, discontinuous media, transport in porous media"}
+  - {when: "2017–2018", where: "UPEC", what: "Fluid and solid mechanics, thermal science, numerical analysis, structural simulation, dynamics and vibrations"}
+  - {when: "2016–2017", where: "École des Ponts ParisTech", what: "Molecular simulations in materials science"}
+  - {when: "2013–2015", where: "ESTP / ESITC", what: "Construction materials"}
+  - {when: "2021–2023", where: "ENS Paris-Saclay", what: "Head of the MSc 2 “Materials and Structures”"}
+
+committees:
+  - {when: "2025–", role: Chair, name: "RILEM TC ASM – Atomistic simulations for cement-based materials: recommendations and link to experiments", lead: true}
+  - {when: "2024–", role: Member, name: "RILEM TC SDM – Scientific metadata management of construction materials"}
+  - {when: "2022–", role: Member, name: "RILEM TC MMS – Moisture transport and retention in porous media"}
+  - {when: "2022–", role: Member, name: "RILEM TC DCS – Data-driven concrete science"}
+  - {when: "2019–", role: Member, name: "RILEM TC CCS – Early age and long-term crack width analysis in RC structures"}
+  - {when: "2015–2019", role: Member, name: "RILEM TC CMS – Thermal cracking of massive concrete structures"}
+  - {when: "2023", role: Team leader, name: "DIM MaTerRE (Île-de-France network on eco-responsible materials)"}
+  - {when: "2019–2021", role: Team leader, name: "DIM RESPORE (Île-de-France network on porous solids)"}
+  - {when: "2016–2018", role: Member, name: "COST Action TU1404 – Service life of cement-based materials and structures"}
+  - {when: "2014–2017", role: Member, name: "NANOCEM partner project on thermo-viscoelastic properties at early age"}
+
+organization:
+  - {when: "2023", what: "Scientific committee, SynerCrete'23 International RILEM Conference, Milos, Greece"}
+  - {when: "2023", what: "Organizer, workshop on creep of materials, École des Ponts ParisTech"}
+  - {when: "2021", what: "Scientific committee, International RILEM Conference on early-age and long-term cracking in RC structures (CRC 2021)"}
+  - {when: "2020", what: "Co-organizer, mini-symposium MS436 “Multiscale mechanics and physics of civil engineering porous materials”, WCCM–ECCOMAS"}
+
+reviewing:
+  journals: "150 reviews of 103 manuscripts for 43 journals, including Cement and Concrete Research (38), Construction and Building Materials (15), Langmuir, ACS Nano, J. Mech. Phys. Solids and Materials and Structures"
+  grants: "ANR (3), Graduate School SIS Paris-Saclay (1), ACS Petroleum Research Fund (1)"
+  verify: https://www.webofscience.com/wos/author/record/535317
+
+phd_committees:
+  - {when: 2025, name: Yalda Pedram, where: "Queen's University, Canada", role: referee}
+  - {when: 2025, name: Tarek Ihaddadene, where: "Nantes Université", role: referee}
+  - {when: 2025, name: Ouail Reguieg, where: "Université de Toulouse", role: referee}
+  - {when: 2025, name: Félicien Pauly, where: "Sorbonne Université", role: referee}
+  - {when: 2025, name: Jingyi Leng, where: "École des Ponts ParisTech", role: referee}
+  - {when: 2025, name: Karim Hakim, where: "Aix-Marseille Université", role: referee}
+  - {when: 2024, name: Chakib El Faqir, where: "Université Grenoble Alpes", role: referee}
+  - {when: 2024, name: Jack Atallah, where: "Nantes Université", role: referee}
+  - {when: 2024, name: Rémy Hoarau Belkhiri, where: "Université Paris-Saclay", role: invited}
+  - {when: 2024, name: Tiago Campos Neto, where: "Federal University of Goiás, Brazil", role: examiner}
+  - {when: 2024, name: Priscilla Bastos, where: "Federal University of Pernambuco, Brazil", role: examiner}
+  - {when: 2024, name: Jon López Zorrilla, where: "University of the Basque Country, Spain", role: external reviewer}
+  - {when: 2023, name: Thibaut Herin, where: "Université Paris-Saclay", role: invited}
+  - {when: 2023, name: Sela Hoeun, where: "INSA Rennes / Université de Nantes", role: reviewer}
+  - {when: 2023, name: Xabier Mendez Aretxabaleta, where: "University of the Basque Country, Spain", role: examiner}

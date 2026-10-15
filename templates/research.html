@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% from "_macros.html" import pub, figure, scale_chart %}
+{% block content %}
+<header class="page-head">
+  <h1>Research</h1>
+  <p class="lede">Each project links a mechanism observed at the scale of atoms or particles to a property engineers measure on concrete. The chart shows where each one sits.</p>
+</header>
+{{ scale_chart(projects) }}
+<nav class="toc" aria-label="Projects">
+  {% for pr in projects %}<a href="#{{ pr.id }}">{{ pr.title }}</a>{% endfor %}
+</nav>
+{% for pr in projects %}
+<article class="project" id="{{ pr.id }}">
+  <div class="project-fig">{{ figure(pr) }}</div>
+  <div class="project-text">
+    <p class="eyebrow mono">{{ pr.scale }}</p>
+    <h2>{{ pr.title }}</h2>
+    <p>{{ pr.body }}</p>
+    <dl class="meta">
+      {% if pr.people %}<div><dt>People</dt><dd>{{ pr.people | join(', ') }}</dd></div>{% endif %}
+      {% if pr.funding %}<div><dt>Funding</dt><dd>{{ pr.funding | join(', ') }}</dd></div>{% endif %}
+    </dl>
+    {% if pr.paper_objs %}
+    <h3 class="sub">Key papers</h3>
+    <ol class="pubs compact">{% for p in pr.paper_objs %}{{ pub(p, show_id=false) }}{% endfor %}</ol>
+    {% endif %}
+  </div>
+</article>
+{% endfor %}
+{% endblock %}

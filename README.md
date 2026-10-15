@@ -1,52 +1,35 @@
-# Tulio Honorio
+# tuliohf.github.io
 
-Research Engineer, Senior Expert, CEA Paris-Saclay, France 
+Personal academic website of Tulio Honorio, published at https://tuliohf.github.io.
 
-[Researchgate](https://www.researchgate.net/profile/Tulio-Honorio)
+## How to update the content
 
-[Google Scholar](https://www.researchgate.net/profile/Tulio-Honorio)
+Everything you normally change is in `_data/`. You can edit these files directly on GitHub; the site rebuilds by itself within a minute or two after each commit.
 
-[Hal CV](https://cv.archives-ouvertes.fr/tulio-honorio)
+| File | What it holds |
+|---|---|
+| `_data/site.yml` | Name, bio, email, profile links, key numbers, news |
+| `_data/projects.yml` | Ongoing projects (home cards + Research page) |
+| `_data/publications.yml` | All publications. `selected: true` puts a paper in "Selected" |
+| `_data/team.yml` | Advisees. Fill `now:` with where former members went |
+| `_data/cv.yml` | Positions, funding, talks, awards, teaching, committees, reviewing |
+| `_data/code.yml` | Repositories and datasets |
 
-[LMPS personal page](https://lmps.ens-paris-saclay.fr/fr/annuaire-des-personnes/tulio-honorio-de-faria)
+**Project figures.** Put an image in `assets/img/projects/` (e.g. `asr.jpg`, about 1600×1000 px) and set `image: assets/img/projects/asr.jpg` in `projects.yml`. While `image` is empty, a placeholder is shown.
 
-[CV in PDF](tuliohf.github.io/HONORIO_CV_EN_Jul_2026.pdf)
+**CV.** Upload the new PDF to `files/` and update `cv_pdf:` in `site.yml`.
 
-_____________________________________________
+**Add a paper.** Copy an entry at the top of `publications.yml` and change the fields. Use `status: under review`, `under revision`, `in press` or `published`.
 
-## Atomic structures for molecular simulation of phases in cement system: [Cement_Molecular](https://github.com/tuliohf/Cement_Molecular)
+## Build locally (optional)
 
-Data on AF-phases: Ettringite/Metaettringite, AFms (Friedel's salt)
+```bash
+pip install jinja2 pyyaml
+python build.py --serve   # then open http://localhost:8000
+```
 
-Data on ASR mineral analogues: (Crystalline pahses)
+## One-time setup on GitHub
 
+Settings → Pages → Build and deployment → Source: **GitHub Actions**.
 
-_____________________________________________
-
-## Concrete Data Initiative: [CDI](https://github.com/tuliohf/cdi)
- 
-Dataset on elastic properties of OPC pastes [Heat capacity, isothermal compressibility, isosteric heat of adsorption and thermal expansion of water confined in C-S-H](https://github.com/tuliohf/cdi/blob/main/Dataset_Elastic_Constants_OPC_Pastes)
-
-
-_____________________________________________
-## Benchmark of mesoscale modeling of concrete 
-
-Benchmark associated with the RILEM Technical Committee [287-CCS : Early age and long-term crack width analysis in RC Structures](https://www.rilem.net/groupe/287-ccs-early-age-and-long-term-crack-width-analysis-in-rc-structures-390)
-
-_____________________________________________
-## ANR [THEDESCO](https://anr.fr/Projet-ANR-19-CE22-0004)
-
--  March 2021: Fatima Masara joined the project as a PhD candidate
-
-### Publications
-
-2. Quantification of how confinement in C-S-H changes water thermo-mechanical properties: [Heat capacity, isothermal compressibility, isosteric heat of adsorption and thermal expansion of water confined in C-S-H](https://www.sciencedirect.com/science/article/pii/S2666549221000128)
-
-1. A review on the [Advances in atomistic modeling and understanding of drying shrinkage in cementitious materials](https://www.sciencedirect.com/science/article/abs/pii/S000888462100185X?via%3Dihub)
-
-_____________________________________________
-## Project HYDRA
-
--  October 2021: Sofiane Ait-Hamadouche joined the project as a PhD candidate
-
-  
+Layout: `templates/` (page layouts), `assets/css/style.css` (design), `build.py` (builder), `.github/workflows/pages.yml` (deployment).
