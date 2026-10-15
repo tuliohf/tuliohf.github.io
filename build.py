@@ -90,6 +90,7 @@ def main():
         chapters=[p for p in pubs if p["type"] == "chapter"],
         theses=[p for p in pubs if p["type"] == "thesis"],
         n_journal=len(published), marks=MARKS,
+        updated=__import__("datetime").date.today().strftime("%-d %B %Y"),
         nav=[(f, PAGES[f]) for f in NAV],
     )
 

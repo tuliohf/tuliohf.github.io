@@ -33,6 +33,7 @@
       <strong>{{ site.full_name }}</strong><br>
       {{ site.role }}, {{ site.lab }}, {{ site.institution }}
       {% if site.email %}<br><span class="mono">{{ site.email }}</span>{% endif %}
+      <br><span class="updated">Last updated {{ updated }}</span>
     </div>
     <ul class="profile-links">
       {% for p in site.profiles %}<li><a href="{{ p.url }}">{{ p.name }}</a></li>{% endfor %}

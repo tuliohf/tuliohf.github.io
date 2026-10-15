@@ -1,21 +1,30 @@
-name: Build and deploy site
+name: Rebuild site
 
-# Runs only when started by hand (Actions tab → Run workflow).
-# The built pages are committed at the repo root and served directly.
+# Edit anything in _data/, templates/, assets/ or files/ and commit:
+# this workflow regenerates the HTML pages at the repo root and commits them,
+# and GitHub Pages (Deploy from a branch: main, / root) publishes them.
 on:
+  push:
+    branches: [main]
+    paths:
+      - "_data/**"
+      - "templates/**"
+      - "assets/**"
+      - "files/**"
+      - "build.py"
+      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
-  id-token: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: rebuild
+  cancel-in-progress: false
 
 jobs:
-  build:
+  rebuild:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,15 +33,20 @@ jobs:
           python-version: "3.12"
       - run: pip install jinja2 pyyaml
       - run: python build.py
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Copy pages to the repo root
+        run: cp _site/*.html .
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- *.html
+          if git diff --cached --quiet; then
+            echo "Pages already up to date."
+          else
+            git commit -m "Rebuild pages"
+            git push
+          fi
+      - name: Ask GitHub Pages to publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || true

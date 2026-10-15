@@ -4,7 +4,7 @@ Personal academic website of Tulio Honorio, published at https://tuliohf.github.
 
 ## How to update the content
 
-Everything you normally change is in `_data/`. After editing, run `python build.py` and commit the regenerated `*.html` files at the repo root: GitHub Pages serves them directly from the `main` branch.
+Everything you normally change is in `_data/`. You can edit these files directly on GitHub. After each commit, the "Rebuild site" workflow (Actions tab) regenerates the pages, and the site updates within 1–2 minutes.
 
 | File | What it holds |
 |---|---|
