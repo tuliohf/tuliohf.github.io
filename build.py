@@ -25,11 +25,11 @@ PAGES = {
     "publications.html": "Publications",
     "team.html": "Team",
     "code.html": "Code & Data",
-    "service.html": "Service",
+    "rilem-tc-asm.html": "RILEM TC ASM",
     "cv.html": "CV",
     "contact.html": "Contact",
 }
-NAV = ["research.html", "publications.html", "team.html", "code.html", "service.html", "cv.html", "contact.html"]
+NAV = ["research.html", "publications.html", "team.html", "code.html", "rilem-tc-asm.html", "cv.html", "contact.html"]
 
 
 def load(name):

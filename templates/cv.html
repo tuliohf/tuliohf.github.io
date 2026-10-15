@@ -59,5 +59,39 @@
     </tbody></table>
   </div>
 </section>
-<p class="muted">Supervision: see <a href="team.html">Team</a>. Committees and reviewing: see <a href="service.html">Service</a>.</p>
+<h2 class="part">Service to the community</h2>
+<section class="block">
+  <h2>Committees and networks</h2>
+  <table class="rows">
+    <tbody>
+    {% for c in cv.committees %}
+      <tr><td class="mono when">{{ c.when }}</td><td><strong>{{ c.role }}</strong>, {{ c.name }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section class="block two-col">
+  <div>
+    <h2>Peer review</h2>
+    <p><strong>Journals.</strong> {{ cv.reviewing.journals }}. <a href="{{ cv.reviewing.verify }}">Verified on Web of Science</a>.</p>
+    <p><strong>Grants.</strong> {{ cv.reviewing.grants }}.</p>
+  </div>
+  <div>
+    <h2>Conference organization</h2>
+    <ul class="mini-list">{% for o in cv.organization %}<li><span class="mono">{{ o.when }}</span> {{ o.what }}</li>{% endfor %}</ul>
+  </div>
+</section>
+
+<section class="block">
+  <h2>PhD defense committees <span class="count mono">{{ cv.phd_committees|length }}</span></h2>
+  <table class="rows">
+    <tbody>
+    {% for c in cv.phd_committees %}
+      <tr><td class="mono when">{{ c.when }}</td><td><strong>{{ c.name }}</strong>, {{ c.where }}</td><td class="muted">{{ c.role }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</section>
+<p class="muted">Supervision: see <a href="team.html">Team</a>.</p>
 {% endblock %}
