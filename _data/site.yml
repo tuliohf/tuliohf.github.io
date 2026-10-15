@@ -26,13 +26,7 @@ bio_extra: >-
   materials. HDR, Université Paris-Saclay (2023). Previously Associate Professor at
   ENS Paris-Saclay (2018–2023).
 
-facts:
-  - value: "66"
-    label: journal articles
-  - value: "10"
-    label: PhD theses co-supervised
-  - value: "4"
-    label: postdocs supervised
+facts: []   # optional key figures, e.g. - {value: "66", label: journal articles}
 
 profiles:
   - name: Google Scholar

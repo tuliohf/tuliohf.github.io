@@ -7,9 +7,11 @@
     <h1>{{ site.full_name }}</h1>
     <p class="lede">{{ site.bio }}</p>
     <p>{{ site.bio_extra }}</p>
+    {% if site.facts %}
     <ul class="facts">
       {% for f in site.facts %}<li><span class="fact-v">{{ f.value }}</span><span class="fact-l">{{ f.label }}</span></li>{% endfor %}
     </ul>
+    {% endif %}
     <p class="hero-links">
       <a class="btn" href="{{ site.cv_pdf }}">CV (PDF)</a>
       {% for p in site.profiles[:4] %}<a href="{{ p.url }}">{{ p.name }}</a>{% endfor %}
