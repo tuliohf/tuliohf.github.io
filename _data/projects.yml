@@ -8,8 +8,11 @@
   title: Alkali–silica reaction
   scale: "Å → mm"
   summary: Atomic structures, thermodynamics and expansion mechanisms of ASR products, from crystalline phases to mortar.
-  image: ""
-  figure_hint: Crystalline ASR product structure or phase diagram
+  image: assets/img/projects/asr.jpg
+  figure_hint: SEM images of synthesized ASR products, Na-shlykovite and ASR-P1
+  caption: >-
+    SEM images of synthesized ASR products: Na-shlykovite (Na₂O–SiO₂–CaO–H₂O system, left) and
+    ASR-P1 (Na₂O–K₂O–SiO₂–CaO–H₂O system, right). Bottom: magnified views of the boxed areas.
   body: >-
     The alkali–silica reaction forms layered silicate products whose growth in confined pores
     damages concrete. We build atomic models of crystalline ASR products (shlykovite, kanemite,
