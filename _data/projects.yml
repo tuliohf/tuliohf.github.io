@@ -69,7 +69,7 @@
     that generates all-atom PCE models for LAMMPS (OPLS-AA) directly from their synthesis parameters:
     backbone length, grafting density, side-chain length, linkage chemistry and protonation state.
     An article presenting pyPCE is in preparation.
-  people: [Ana Paula Kirchheim (UFRGS)]
+  people: [Ana Paula Kirchheim (UFRGS, Brazil)]
   funding: []
   papers: []
 
