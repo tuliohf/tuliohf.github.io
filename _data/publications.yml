@@ -42,6 +42,7 @@
   journal: Cement and Concrete Research
   details: 209, 108362
   doi: 10.1016/j.cemconres.2026.108362
+  oa: true
 - id: J65
   type: journal
   status: published
@@ -61,6 +62,7 @@
   journal: Cement and Concrete Research
   details: 208, 108326
   doi: 10.1016/j.cemconres.2026.108326
+  oa: true
 - id: J63
   type: journal
   status: published
@@ -81,6 +83,7 @@
   journal: Cement and Concrete Research
   details: 207, 108287
   doi: 10.1016/j.cemconres.2026.108287
+  oa: true
 - id: J61
   type: journal
   status: published
@@ -90,6 +93,7 @@
   journal: Langmuir
   details: 42 (9), 6745–6760
   doi: 10.1021/acs.langmuir.5c05760
+  oa: true
 - id: J60
   type: journal
   status: published
@@ -100,6 +104,7 @@
   journal: Cement and Concrete Research
   details: 201, 108123
   doi: 10.1016/j.cemconres.2025.108123
+  oa: true
 - id: J59
   type: journal
   status: published
@@ -140,6 +145,7 @@
   journal: Cement and Concrete Research
   details: 193, 107878
   doi: 10.1016/j.cemconres.2025.107878
+  oa: true
 - id: J55
   type: journal
   status: published
@@ -182,6 +188,7 @@
   journal: Microporous and Mesoporous Materials
   details: '113205'
   doi: 10.1016/j.micromeso.2024.113205
+  oa: true
 - id: J50
   type: journal
   status: published
@@ -200,6 +207,7 @@
   journal: Cement and Concrete Research
   details: 181, 107521
   doi: 10.1016/j.cemconres.2024.107521
+  oa: true
 - id: J48
   type: journal
   status: published
@@ -310,6 +318,7 @@
   journal: Physical Chemistry Chemical Physics
   details: 24, 15003-15014
   doi: 10.1039/D2CP01419J
+  oa: true
 - id: J36
   type: journal
   status: published
