@@ -1,5 +1,8 @@
 # Ongoing projects. Shown as cards on the home page and in full on the Research page.
 # image: path to a figure in assets/img/projects/ (leave empty to show a placeholder)
+# card_image: optional simpler figure for the home-page card (defaults to image)
+# caption: optional caption shown under the figure on the Research page
+# Figures: 1600×1000 px (16:10); fill the frame, labels ≥ 40 px tall
 # papers: ids from publications.yml
 - id: asr
   title: Alkali–silica reaction
@@ -52,6 +55,7 @@
   scale: "Å → nm"
   summary: Atomistic and coarse-grained models of polycarboxylate ether superplasticizers and their adsorption on cement phases.
   image: assets/img/projects/pce.jpg
+  card_image: assets/img/projects/pce-card.jpg
   figure_hint: All-atom PCE 40:10–25 molecule in extended and random-coil starting conformations
   caption: >-
     All-atom PCE 40:10–25 (50 backbone units, 10 PEG side chains of 25 EO units) built with pyPCE (OPLS-AA):

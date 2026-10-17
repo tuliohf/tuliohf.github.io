@@ -28,7 +28,7 @@
   <div class="cards">
     {% for pr in projects %}
     <a class="card" href="research.html#{{ pr.id }}">
-      {{ figure(pr) }}
+      {{ figure(pr, card=true) }}
       <span class="card-scale mono">{{ pr.scale }}</span>
       <h3>{{ pr.title }}</h3>
       <p>{{ pr.summary }}</p>

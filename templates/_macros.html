@@ -16,10 +16,10 @@
 </li>
 {%- endmacro %}
 
-{% macro figure(pr, caption=false) -%}
+{% macro figure(pr, caption=false, card=false) -%}
 {% if pr.image %}
 <figure class="proj-figure">
-<img class="proj-fig" src="{{ pr.image }}" alt="{{ pr.figure_hint }}" loading="lazy">
+<img class="proj-fig" src="{{ pr.card_image if card and pr.card_image else pr.image }}" alt="{{ pr.figure_hint }}" loading="lazy">
 {% if caption and pr.caption %}<figcaption>{{ pr.caption }}</figcaption>{% endif %}
 </figure>
 {% else %}

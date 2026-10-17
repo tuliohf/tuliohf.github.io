@@ -15,7 +15,7 @@ Everything you normally change is in `_data/`. You can edit these files directly
 | `_data/cv.yml` | Positions, funding, talks, awards, teaching, committees, reviewing |
 | `_data/code.yml` | Repositories and datasets |
 
-**Project figures.** Put an image in `assets/img/projects/` (e.g. `asr.jpg`, about 1600×1000 px) and set `image: assets/img/projects/asr.jpg` in `projects.yml`. While `image` is empty, a placeholder is shown.
+**Project figures.** Put an image in `assets/img/projects/` (e.g. `asr.jpg`, about 1600×1000 px) and set `image: assets/img/projects/asr.jpg` in `projects.yml`. While `image` is empty, a placeholder is shown. Optional: `card_image` (a simpler figure for the home-page card) and `caption` (shown on the Research page).
 
 **CV.** Upload the new PDF to `files/` and update `cv_pdf:` in `site.yml`.
 
