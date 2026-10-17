@@ -65,8 +65,11 @@
     Polycarboxylate ether (PCE) superplasticizers control the workability of modern concretes,
     including low-clinker mixes. We generate realistic all-atom PCE architectures and study their
     conformation and adsorption on cement and clay surfaces, as input to coarse-grained models of
-    particle interactions and rheology.
-  people: [Ana Paula Kirchheim]
+    particle interactions and rheology. To build these molecules, we developed pyPCE, a Python tool
+    that generates all-atom PCE models for LAMMPS (OPLS-AA) directly from their synthesis parameters:
+    backbone length, grafting density, side-chain length, linkage chemistry and protonation state.
+    An article presenting pyPCE is in preparation.
+  people: [Ana Paula Kirchheim (UFRGS)]
   funding: []
   papers: []
 
