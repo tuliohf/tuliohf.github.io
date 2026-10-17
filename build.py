@@ -92,6 +92,7 @@ def main():
         theses=[p for p in pubs if p["type"] == "thesis"],
         n_journal=len(published), marks=MARKS,
         updated=__import__("datetime").date.today().strftime("%-d %B %Y"),
+        css_version=__import__("hashlib").md5((ROOT / "assets/css/style.css").read_bytes()).hexdigest()[:8],
         nav=[(f, PAGES[f]) for f in NAV],
     )
 

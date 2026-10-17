@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{% if page == 'index.html' %}{{ site.name }}{% else %}{{ title }} · {{ site.name }}{% endif %}</title>
 <meta name="description" content="{{ site.name }}, {{ site.role }} at {{ site.institution }}. {{ site.bio[:150] }}">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css?v={{ css_version }}">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
