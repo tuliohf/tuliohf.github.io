@@ -8,7 +8,7 @@ Everything you normally change is in `_data/`. You can edit these files directly
 
 | File | What it holds |
 |---|---|
-| `_data/site.yml` | Name, bio, email, profile links, key numbers, news |
+| `_data/site.yml` | Name, bio, email, profile links, key numbers, news (5 newest on home, all on News page) |
 | `_data/projects.yml` | Ongoing projects (home cards + Research page) |
 | `_data/publications.yml` | All publications. `selected: true` puts a paper in "Selected" |
 | `_data/team.yml` | Advisees. Fill `now:` with where former members went |

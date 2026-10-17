@@ -42,7 +42,7 @@ profiles:
   - name: ResearchGate
     url: https://www.researchgate.net/profile/Tulio-Honorio
 
-# Short news items on the home page (newest first). Keep 3–5.
+# News items, newest first. The 5 most recent appear on the home page; all appear on the News page.
 news:
   - date: Oct 2026
     text: >-

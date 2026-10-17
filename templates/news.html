@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-head">
+  <h1>News</h1>
+  <p class="lede">Awards, publications, new team members and events.</p>
+</header>
+<section class="block">
+  <ul class="news">
+    {% for n in site.news %}
+    <li><span class="news-date mono">{{ n.date }}</span><span>{% if n.link %}<a href="{{ n.link }}">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}

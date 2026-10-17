@@ -49,9 +49,9 @@
     </ol>
   </section>
   <section class="block">
-    <div class="block-head"><h2>News</h2></div>
+    <div class="block-head"><h2>News</h2><a class="more" href="news.html">All news →</a></div>
     <ul class="news">
-      {% for n in site.news %}
+      {% for n in site.news[:5] %}
       <li><span class="news-date mono">{{ n.date }}</span><span>{% if n.link %}<a href="{{ n.link }}">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}</span></li>
       {% endfor %}
     </ul>
