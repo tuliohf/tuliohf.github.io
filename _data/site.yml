@@ -45,6 +45,14 @@ profiles:
 # Short news items on the home page (newest first). Keep 3–5.
 news:
   - date: Oct 2026
+    text: >-
+      Our paper "Multiscale modeling of the electrical resistivity of cementitious systems with mineral additions"
+      (original title: "Modelagem multiescala da resistividade elétrica em sistemas cimentícios com adições minerais"),
+      by Walter Batista Bonfim, Tulio Honorio and Oswaldo Cascudo, received the Best Paper Award of the Cements
+      Working Group at the XXI National Meeting on Built Environment Technology (ENTAC 2026), held in Goiânia, Brazil,
+      on 14–16 October 2026. The conference was organized by the Brazilian National Association of Built Environment
+      Technology (ANTAC) and hosted by the Federal University of Goiás (UFG). Congratulations to Walter on this recognition!
+  - date: Oct 2026
     text: Congratulations to Bilal Mahmoud Hawchar on receiving the ALERT Geomaterials Ioannis Vardoulakis PhD Prize for his thesis on crystallization pressure!
   - date: 2026
     text: Opening letter of RILEM TC ASM published in RILEM Technical Letters.
