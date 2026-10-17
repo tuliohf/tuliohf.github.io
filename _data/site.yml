@@ -46,6 +46,12 @@ profiles:
 news:
   - date: Oct 2026
     text: >-
+      pyPCE, our Python builder for all-atom polycarboxylate ether (PCE) superplasticizer models (OPLS-AA, LAMMPS),
+      generates molecules directly from their synthesis parameters. An article presenting it is in preparation.
+    link: research.html#pce
+    image: assets/img/projects/pce-card.jpg
+  - date: Oct 2026
+    text: >-
       Our paper "Multiscale modeling of the electrical resistivity of cementitious systems with mineral additions",
       by Walter Batista Bonfim, Tulio Honorio and Oswaldo Cascudo, received the Best Paper Award of the Cements
       Working Group at ENTAC 2026, held in Goiânia, Brazil, on 14–16 October 2026. Congratulations to Walter on

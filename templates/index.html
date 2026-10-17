@@ -52,7 +52,7 @@
     <div class="block-head"><h2>News</h2><a class="more" href="news.html">All news →</a></div>
     <ul class="news">
       {% for n in site.news[:5] %}
-      <li><span class="news-date mono">{{ n.date }}</span><span>{% if n.link %}<a href="{{ n.link }}">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}</span></li>
+      <li><span class="news-date mono">{{ n.date }}</span><span>{% if n.link %}<a href="{{ n.link }}">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}{% if n.image %}<a href="{{ n.link or n.image }}"><img class="news-img" src="{{ n.image }}" alt="" loading="lazy"></a>{% endif %}</span></li>
       {% endfor %}
     </ul>
     <div class="callout">
