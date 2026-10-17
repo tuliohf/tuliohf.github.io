@@ -11,7 +11,7 @@
 </nav>
 {% for pr in projects %}
 <article class="project" id="{{ pr.id }}">
-  <div class="project-fig">{{ figure(pr) }}</div>
+  <div class="project-fig">{{ figure(pr, caption=true) }}</div>
   <div class="project-text">
     <p class="eyebrow mono">{{ pr.scale }}</p>
     <h2>{{ pr.title }}</h2>

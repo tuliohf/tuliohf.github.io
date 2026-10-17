@@ -51,8 +51,12 @@
   title: Superplasticizers (PCE)
   scale: "Å → nm"
   summary: Atomistic and coarse-grained models of polycarboxylate ether superplasticizers and their adsorption on cement phases.
-  image: ""
-  figure_hint: All-atom or coarse-grained PCE molecule on a mineral surface
+  image: assets/img/projects/pce.jpg
+  figure_hint: All-atom PCE 40:10–25 molecule in extended and random-coil starting conformations
+  caption: >-
+    All-atom PCE 40:10–25 (50 backbone units, 10 PEG side chains of 25 EO units) built with pyPCE (OPLS-AA):
+    (a) extended all-trans and (b) random-coil melt starting structures, before equilibration.
+    C grey, O red, H white. Article in preparation.
   body: >-
     Polycarboxylate ether (PCE) superplasticizers control the workability of modern concretes,
     including low-clinker mixes. We generate realistic all-atom PCE architectures and study their

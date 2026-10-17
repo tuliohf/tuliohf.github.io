@@ -16,9 +16,12 @@
 </li>
 {%- endmacro %}
 
-{% macro figure(pr) -%}
+{% macro figure(pr, caption=false) -%}
 {% if pr.image %}
+<figure class="proj-figure">
 <img class="proj-fig" src="{{ pr.image }}" alt="{{ pr.figure_hint }}" loading="lazy">
+{% if caption and pr.caption %}<figcaption>{{ pr.caption }}</figcaption>{% endif %}
+</figure>
 {% else %}
 <div class="proj-fig placeholder" role="img" aria-label="Figure placeholder: {{ pr.figure_hint }}">
   <span class="ph-label mono">Figure</span>
