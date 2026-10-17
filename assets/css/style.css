@@ -4,6 +4,7 @@
   --bg: #ffffff;
   --grid: rgba(45, 50, 52, 0.16);
   --grid-size: 24px;
+  --panel: #f4f6ec;   /* light olive panel behind all text */
   --surface: #ffffff;
   --ink: #143d2b;
   --muted: #5b6569;
@@ -74,6 +75,22 @@ p { margin: 0; }
 }
 
 main { padding-block: 40px 72px; display: flex; flex-direction: column; gap: 56px; }
+.masthead-inner.wrap, .footer-inner.wrap {
+  max-width: calc(72rem + 64px);
+  padding-left: max(32px, env(safe-area-inset-left, 0px));
+  padding-right: max(32px, env(safe-area-inset-right, 0px));
+}
+main.wrap {
+  background: var(--panel);
+  border-left: 1px solid var(--line); border-right: 1px solid var(--line);
+  max-width: calc(72rem + 64px);
+  padding-left: max(32px, env(safe-area-inset-left, 0px));
+  padding-right: max(32px, env(safe-area-inset-right, 0px));
+}
+@media (max-width: 600px) {
+  .masthead-inner.wrap, .footer-inner.wrap { padding-left: max(18px, env(safe-area-inset-left, 0px)); padding-right: max(18px, env(safe-area-inset-right, 0px)); }
+  main.wrap { border: 0; padding-left: max(18px, env(safe-area-inset-left, 0px)); padding-right: max(18px, env(safe-area-inset-right, 0px)); }
+}
 
 /* Hero */
 .hero { display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 48px; align-items: start; }
