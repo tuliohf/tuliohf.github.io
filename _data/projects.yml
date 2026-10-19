@@ -68,8 +68,12 @@
   title: Sorption and sorption-induced deformation
   scale: "Å → mm"
   summary: Water sorption, hysteresis and disjoining pressure in nanopores, and the shrinkage and swelling they cause.
-  image: ""
-  figure_hint: Sorption isotherm with hysteresis, or water in a C-S-H nanopore
+  image: assets/img/projects/sorption.jpg
+  figure_hint: Water content of ettringite and metaettringite versus relative humidity from GCMC-MD simulations, showing sorption hysteresis
+  caption: >-
+    Sorption hysteresis in ettringite from hybrid GCMC-MD simulations: water content (n+6) versus relative
+    humidity on desorption (ettringite) and adsorption (metaettringite), with the corresponding atomic
+    structures. From Honorio, Maaroufi, Al Dandachli & Bourdot, Cement and Concrete Research (2021).
   body: >-
     Drying and wetting change the forces between the nanolayers of C-S-H, clays and other hydrates,
     causing shrinkage, swelling and hysteresis. We simulate sorption isotherms, disjoining pressures and
@@ -77,7 +81,7 @@
     carry these effects up to the drying shrinkage and thermal deformation of concrete.
   people: [Fatima Masara, Farid Benboudjema, Laurent Brochard, Matthieu Vandamme, Elvys Dias Reis]
   funding: [ANR THEDESCO]
-  papers: [J53, J42, J44, J51, J32, J20]
+  papers: [J32, J53, J42, J44, J51, J20]
 
 - id: pce
   title: Superplasticizers (PCE)
