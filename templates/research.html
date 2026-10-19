@@ -24,6 +24,10 @@
     <h3 class="sub">Key papers</h3>
     <ol class="pubs compact">{% for p in pr.paper_objs %}{{ pub(p, show_id=false) }}{% endfor %}</ol>
     {% endif %}
+    {% if pr.in_prep %}
+    <h3 class="sub">In preparation</h3>
+    <ul class="mini-list">{% for x in pr.in_prep %}<li>{{ x }}</li>{% endfor %}</ul>
+    {% endif %}
   </div>
 </article>
 {% endfor %}

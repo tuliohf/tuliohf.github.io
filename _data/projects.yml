@@ -26,17 +26,38 @@
 - id: csh-cg
   title: Coarse-grained C-S-H
   scale: "nm → µm"
-  summary: Mesostructure, creep and transport of the C-S-H gel from coarse-grained and molecular simulations.
-  image: ""
-  figure_hint: Snapshot of the coarse-grained C-S-H mesostructure
+  summary: Mesostructure and mechanics of C-S-H and ASR gels from coarse-grained simulations with flexible multi-site particles.
+  image: assets/img/projects/csh-cg.jpg
+  figure_hint: Coarse-grained model of the C-S-H gel with multi-site flexible particles
+  caption: >-
+    Coarse-grained model of the C-S-H gel built from multi-site flexible particles (packing density 50%),
+    with a magnified view of the particle arrangement.
   body: >-
-    C-S-H is the main binding phase of concrete and controls its creep, shrinkage and transport.
-    We represent C-S-H particles as flexible multi-site objects to simulate the gel mesostructure,
-    and link the dynamics of confined water to macroscopic behaviour, such as the power-law creep
-    that emerges from subdiffusive water dynamics.
-  people: [Fatima Masara, Farid Benboudjema]
+    The C-S-H gel is an assembly of nanometric, flexible particles whose arrangement controls the
+    mechanics, creep and transport of cement paste. We represent these particles as flexible
+    multi-site objects and simulate the resulting gel mesostructure with coarse-grained simulations,
+    to link particle shape, flexibility and packing to the properties of the gel. The same approach
+    applies to the gels formed by the alkali–silica reaction.
+  people: [Sofiane Ait-Hamadouche]
   funding: []
-  papers: [J66, J57, J48, J47, J13]
+  papers: [J47]
+  in_prep:
+    - "Honorio, T. Mesostructure and properties of C–S–H gel from coarse-grained simulations with multi-site flexible particles."
+
+- id: csh-molecular
+  title: C-S-H at the molecular scale
+  scale: "Å → nm"
+  summary: Atomic models of C-S-H and the behaviour of the water confined in its nanopores.
+  image: ""
+  figure_hint: Atomic model of C-S-H with interlayer water
+  body: >-
+    C-S-H is the main binding phase of concrete. We build and benchmark atomic models of C-S-H and use
+    molecular simulations to compute its thermal, mechanical and transport properties, and to study the
+    structure and dynamics of the water confined in its nanopores, including the subdiffusive water
+    dynamics from which power-law creep emerges.
+  people: [Fatima Masara, Farid Benboudjema, Naohiko Saeki]
+  funding: [ANR THEDESCO]
+  papers: [J66, J57, J48, J35, J16]
 
 - id: sorption
   title: Sorption and sorption-induced deformation
@@ -57,13 +78,11 @@
   title: Superplasticizers (PCE)
   scale: "Å → nm"
   summary: Atomistic and coarse-grained models of polycarboxylate ether superplasticizers and their adsorption on cement phases.
-  image: assets/img/projects/pce.jpg
-  card_image: assets/img/projects/pce-card.jpg
-  figure_hint: All-atom PCE 40:10–25 molecule in extended and random-coil starting conformations
+  image: assets/img/projects/pce-card.jpg
+  figure_hint: All-atom PCE 40:10–25 molecule built with pyPCE
   caption: >-
-    All-atom PCE 40:10–25 (50 backbone units, 10 PEG side chains of 25 EO units) built with pyPCE (OPLS-AA):
-    (a) extended all-trans and (b) random-coil melt starting structures, before equilibration.
-    C grey, O red, H white. Article in preparation.
+    All-atom PCE 40:10–25 molecule (n/p = 4, f_g = 20%) built with pyPCE (OPLS-AA).
+    C grey, O red, H white.
   body: >-
     Polycarboxylate ether (PCE) superplasticizers control the workability of modern concretes,
     including low-clinker mixes. We generate realistic all-atom PCE architectures and study their
