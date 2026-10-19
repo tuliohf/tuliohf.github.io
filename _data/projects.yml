@@ -24,7 +24,7 @@
   papers: [J64, J62, J56, J50, J49, J24]
 
 - id: csh-cg
-  title: Coarse-grained C-S-H
+  title: Coarse-grained C-S-H gel
   scale: "nm → µm"
   summary: Mesostructure and mechanics of C-S-H and ASR gels from coarse-grained simulations with flexible multi-site particles.
   image: assets/img/projects/csh-cg.jpg
