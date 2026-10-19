@@ -129,8 +129,14 @@
   title: Electrical and dielectric properties
   scale: "Å → m"
   summary: Dielectric permittivity and ionic conductivity of pore solutions and hydrates, upscaled for non-destructive testing.
-  image: ""
-  figure_hint: Dielectric spectrum or impedance plot of C-S-H
+  image: assets/img/projects/electrical.jpg
+  figure_hint: Impedance of the C-S-H gel versus frequency for increasing packing density, with equivalent circuits
+  caption: >-
+    Impedance of C-S-H from the molecular scale, upscaled with micromechanics: real part of the gel
+    impedance versus frequency for increasing packing density η. Below the threshold η_c ≈ 0.667 the
+    response is dominated by mesopores (conductor), above it by micropores (insulator). Right:
+    equivalent circuits with (a) capacitors and (b) constant-phase elements. From Honorio, Bonfim &
+    Cascudo, Cement and Concrete Research (2026).
   body: >-
     Electrical and dielectric measurements are non-destructive ways to follow hydration, moisture and
     degradation in concrete. We compute the dielectric permittivity and ionic conductivity of pore solutions
