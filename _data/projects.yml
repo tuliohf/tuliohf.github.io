@@ -48,8 +48,13 @@
   title: C-S-H at the molecular scale
   scale: "Å → nm"
   summary: Atomic models of C-S-H and the behaviour of the water confined in its nanopores.
-  image: ""
-  figure_hint: Atomic model of C-S-H with interlayer water
+  image: assets/img/projects/csh-molecular.jpg
+  figure_hint: Molecular models of C-S-H pores from interlayer to gel pore sizes, C-S-H mesostructure and nanoscale cavitation
+  caption: >-
+    (A) Molecular models of C-S-H pores with sizes from 11.6 to 36 Å, covering interlayer and gel pores.
+    (B) C-S-H mesostructure with interlayer (micro)pores and gel (meso)pores. (C) Heterogeneous and
+    homogeneous cavitation at the nanoscale. From Masara, Benboudjema & Honorio, Langmuir (2024),
+    ANR THEDESCO project.
   body: >-
     C-S-H is the main binding phase of concrete. We build and benchmark atomic models of C-S-H and use
     molecular simulations to compute its thermal, mechanical and transport properties, and to study the
@@ -57,7 +62,7 @@
     dynamics from which power-law creep emerges.
   people: [Fatima Masara, Farid Benboudjema, Naohiko Saeki]
   funding: [ANR THEDESCO]
-  papers: [J66, J57, J48, J35, J16]
+  papers: [J53, J66, J57, J48, J35, J16]
 
 - id: sorption
   title: Sorption and sorption-induced deformation
