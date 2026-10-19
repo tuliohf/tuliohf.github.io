@@ -20,7 +20,7 @@
 {% macro person(m) -%}
 <li class="person">
   <div class="person-head">
-    <span class="person-name">{{ m.name }}</span>
+    <span class="person-name">{{ m.name }}{% if m.status == 'current' %} <span class="tag tag-now">Current</span>{% elif m.role == 'phd' and m.status == 'past' %} <span class="tag tag-status">Defended</span>{% endif %}</span>
     <span class="person-years mono">{{ m.years }}</span>
   </div>
   <p class="person-topic">{{ m.topic }}</p>
@@ -34,19 +34,25 @@
 {%- endmacro %}
 
 <section class="block">
-  <h2>Current</h2>
+  <h2>Postdocs</h2>
   <ul class="people">
-    {% for m in postdocs + phds + apprentices if m.status == 'current' %}{{ person(m) }}{% endfor %}
+    {% for m in postdocs if m.status == 'current' %}{{ person(m) }}{% endfor %}
+    {% for m in postdocs if m.status == 'past' %}{{ person(m) }}{% endfor %}
   </ul>
 </section>
 <section class="block">
-  <h2>Former postdocs</h2>
-  <ul class="people">{% for m in postdocs if m.status == 'past' %}{{ person(m) }}{% endfor %}</ul>
+  <h2>PhD students</h2>
+  <ul class="people">
+    {% for m in phds if m.status == 'current' %}{{ person(m) }}{% endfor %}
+    {% for m in phds if m.status == 'past' %}{{ person(m) }}{% endfor %}
+  </ul>
 </section>
+{% if apprentices %}
 <section class="block">
-  <h2>Defended PhD theses</h2>
-  <ul class="people">{% for m in phds if m.status == 'past' %}{{ person(m) }}{% endfor %}</ul>
+  <h2>Work-study apprentices</h2>
+  <ul class="people">{% for m in apprentices %}{{ person(m) }}{% endfor %}</ul>
 </section>
+{% endif %}
 <section class="block">
   <h2>Visiting researchers</h2>
   <ul class="people">{% for m in visitors %}{{ person(m) }}{% endfor %}</ul>
