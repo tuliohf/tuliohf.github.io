@@ -114,8 +114,12 @@
   title: Water and ions in clays
   scale: "Å → nm"
   summary: Anomalous diffusion, swelling and thermo-poromechanics of water and counterions confined in swelling clays.
-  image: ""
-  figure_hint: Montmorillonite interlayer with water and counterions, or MSD curves
+  image: assets/img/projects/clay-diffusion.jpg
+  figure_hint: Na-montmorillonite at 1W, 1.5W, 2W and 3W hydration states
+  caption: >-
+    Molecular models of Na-montmorillonite at increasing hydration: one-, one-and-a-half-, two- and
+    three-layer hydrates (1W, 1.5W, 2W, 3W). Clay layers in yellow and red, Na⁺ counterions in purple,
+    interlayer water in red and white.
   body: >-
     Swelling clays confine water and ions in nanometric interlayers. We show that their transport is
     subdiffusive and describe it with fractional diffusion laws, and we study how counterions control
