@@ -105,19 +105,23 @@
   papers: []
 
 - id: irradiation
-  title: Irradiation of aggregates
+  title: Irradiation effects in cement systems
   scale: "Å → m"
-  summary: Radiation-induced volumetric expansion (RIVE) of aggregate minerals and hydrogen transport in irradiated hydrates.
+  summary: Radiolytic H₂ production and transport in cement hydrates, and radiation-induced volumetric expansion (RIVE) of aggregate minerals.
   image: assets/img/projects/irradiation.jpg
   figure_hint: Quartz atomic structure at irradiation doses of 0.1 and 2.5 eV/atom from ballistic cascade simulations
   caption: >-
     α-quartz after accumulated ballistic cascades at doses of 0.1 eV/atom (left, crystalline) and
     2.5 eV/atom (right, amorphized), from ongoing ReaxFF molecular dynamics simulations.
   body: >-
-    Concrete near nuclear reactors is exposed to neutron and gamma radiation. Using molecular dynamics,
-    we quantify radiation-induced volumetric expansion in the minerals of concrete aggregates (quartz,
-    feldspars, micas, inosilicates) and study H₂ transport in irradiated hydrates. These results feed
-    mesoscale simulations and simplified models of irradiated concrete.
+    Concrete in nuclear facilities is exposed to gamma and neutron radiation, which affects both the
+    cement paste and the aggregates. In the hydrated paste, gamma radiation decomposes the water bound in
+    and confined by hydrates, producing H₂; we study with molecular simulations how this hydrogen is
+    released and transported, showing anisotropic, subdiffusive H₂ transport and the associated expansion
+    in portlandite and other layered hydroxides. In the aggregates, neutron irradiation amorphizes the
+    minerals and causes radiation-induced volumetric expansion (RIVE); we quantify it in quartz, feldspars,
+    micas and inosilicates with ballistic cascade simulations using reactive force fields (ReaxFF). These
+    results feed mesoscale simulations and simplified models of irradiated concrete.
   people: [Hazem Ferchichi, Abderrahmane Lahmar, Stéphane Poyet, Benoît Bary, Paul Fossati, Sophie Le Caër]
   funding: [CEA]
   papers: [J52, J69]
