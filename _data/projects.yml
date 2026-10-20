@@ -64,6 +64,29 @@
   funding: [ANR THEDESCO]
   papers: [J53, J66, J57, J48, J35, J16]
 
+- id: msh
+  title: M-(A)-S-H
+  scale: "Å → µm"
+  summary: Synthesis, atomic structures and properties of magnesium (alumino)silicate hydrates, a binding phase of low-carbon cements.
+  image: assets/img/projects/msh.jpg
+  figure_hint: Crystalline and defective atomic models of M-S-H based on sepiolite, talc, lizardite and L1T1 structures
+  caption: >-
+    Building M-S-H models. Top: crystalline references (sepiolite, talc, lizardite, L1T1) with their TOT and
+    OT layer stackings. Bottom: defective models derived from sepiolite, talc and lizardite at Mg/Si = 0.67.
+    Si yellow, O red, Mg green, OH red and white.
+  body: >-
+    Magnesium silicate hydrates (M-S-H) and their aluminium-bearing form M-A-S-H form in magnesium-based
+    and low-carbon binders and in cement exposed to magnesium-rich environments, but their structure is
+    poorly ordered and still debated. We synthesize M-(A)-S-H and characterize it experimentally, notably by
+    NMR, and build atomic models starting from crystalline phyllosilicates (sepiolite, talc, lizardite)
+    and introducing defects to match the measured composition. The resulting structures are used to compute
+    elastic, thermal and transport properties with molecular simulations, as inputs for multiscale models.
+  people: [Fatima Masara, Thibault Charpentier]
+  funding: [CEA]
+  papers: []
+  in_prep:
+    - "Masara, F.; Charpentier, T.; Honorio, T. M-S-H atomic structures."
+
 - id: sorption
   title: Sorption and sorption-induced deformation
   scale: "Å → mm"
