@@ -213,3 +213,20 @@
   papers: [J60, J61, J41]
   conference:
     - "Honorio, T. Blended low carbon binders: composition–property correlations for elastic constants and compressive strength. TINCE 2026 (submitted)."
+
+- id: micromechanics
+  title: Micromechanics and upscaling
+  scale: "nm → m"
+  summary: Analytical and numerical homogenization linking the properties of cement phases to those of paste, mortar and concrete.
+  image: ""
+  figure_hint: Multiscale representation of concrete from C-S-H to paste, mortar and concrete
+  body: >-
+    Micromechanics is the bridge between the molecular scale and the engineering scale in our work. We develop
+    analytical and numerical homogenization schemes (Mori–Tanaka, self-consistent, n-coated sphere assemblages)
+    to estimate the elastic, ageing viscoelastic, thermal, thermo-poro-elastic, transport and electrical
+    properties of cement-based materials from their phase assemblage and microstructure. These schemes take
+    inputs from molecular simulations and thermodynamic modelling, quantify the variability of local fields,
+    and are compared with full-field simulations, experiments and international benchmarks.
+  people: [Benoît Bary, Farid Benboudjema, Laurent Brochard, Julien Sanahuja]
+  funding: []
+  papers: [J4, J6, J5, J12, J10, J28]
