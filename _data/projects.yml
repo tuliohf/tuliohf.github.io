@@ -218,8 +218,13 @@
   title: Micromechanics and upscaling
   scale: "nm → m"
   summary: Analytical and numerical homogenization linking the properties of cement phases to those of paste, mortar and concrete.
-  image: ""
-  figure_hint: Multiscale representation of concrete from C-S-H to paste, mortar and concrete
+  image: assets/img/projects/micromechanics.jpg
+  figure_hint: Multiscale homogenization scheme from hydration products to cement paste, mortar and concrete
+  caption: >-
+    Multiscale representation of concrete for estimating its ageing viscoelastic properties: analytical
+    homogenization (Mori–Tanaka, MT, and generalized self-consistent, GSC, schemes) from hydration product
+    layers to cement paste and mortar (levels 1–3), and numerical homogenization at the concrete scale with
+    coarse aggregates (level 4). From Honorio, Bary & Benboudjema, Cement and Concrete Research (2016).
   body: >-
     Micromechanics is the bridge between the molecular scale and the engineering scale in our work. We develop
     analytical and numerical homogenization schemes (Mori–Tanaka, self-consistent, n-coated sphere assemblages)
