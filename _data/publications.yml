@@ -27,11 +27,12 @@
   journal: Cement and Concrete Research
 - id: J67
   type: journal
-  status: in press
+  status: published
   year: 2026
   title: Anomalous diffusion of water and ions in swelling clays
   authors: Honorio, T.
   journal: The Journal of Physical Chemistry C
+  doi: 10.1021/acs.jpcc.6c05692
 - id: J66
   type: journal
   status: published
