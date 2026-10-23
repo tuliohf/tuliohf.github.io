@@ -17,3 +17,9 @@
   description: Benchmark of mesoscale modelling of concrete, associated with RILEM TC 287-CCS on early-age and long-term crack width analysis in RC structures.
   tags: [benchmark, mesoscale, RILEM]
   papers: [J29]
+- name: namm-subdiffusion-analysis
+  kind: code
+  url: https://github.com/tuliohf/namm-subdiffusion-analysis
+  description: Python codes to analyse LAMMPS trajectories of water and Na⁺ in Na-montmorillonite interlayers. They fit the mean squared displacement with a two-crossover subdiffusion model and compute van Hove functions, intermediate scattering functions, non-Gaussian parameters, residence times, time-averaged MSD and ergodicity breaking, and jump and waiting-time statistics. Includes synthetic test trajectories.
+  tags: [Python, LAMMPS, anomalous diffusion, clays]
+  papers: [J67]
