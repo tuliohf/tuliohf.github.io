@@ -16,9 +16,12 @@
   authors: Tararushkin, E.V.; Smirnov, G.S.; Honorio, T.
 - id: J69
   type: journal
-  status: under review
-  title: 'A multiscale approach to molecular hydrogen release from irradiated materials: fractional subdiffusion in portlandite'
+  status: published
+  year: 2026
+  title: 'Fractional subdiffusion of molecular hydrogen in irradiated portlandite: connecting atomistic insights and macroscopic release'
   authors: Simeone, D.; Herin, T.; Bouniol, P.; Poyet, S.; Honorio, T.; Le Caër, S.
+  journal: Physical Chemistry Chemical Physics
+  doi: 10.1039/D6CP02999J
 - id: J68
   type: journal
   status: under revision
