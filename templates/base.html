@@ -30,7 +30,7 @@
       <strong>{{ site.full_name }}</strong><br>
       {{ site.role }}, {{ site.lab }}, {{ site.institution }}
       {% if site.email %}<br><span class="mono">{{ site.email }}</span>{% endif %}
-      <br><span class="updated">Last updated {{ updated }}</span>
+      <br><span class="updated">Last updated {{ updated }}</span>{% if site.goatcounter and site.show_visits %}<span class="visits" id="visit-count" hidden> · <span id="visit-n"></span> visits</span>{% endif %}
     </div>
     <ul class="profile-links">
       {% for p in site.profiles %}<li><a href="{{ p.url }}">{{ p.name }}</a></li>{% endfor %}
@@ -38,5 +38,22 @@
   </div>
 </footer>
 {% block scripts %}{% endblock %}
+{% if site.goatcounter %}
+<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+{% if site.show_visits %}
+<script>
+(function () {
+  fetch('https://{{ site.goatcounter }}.goatcounter.com/counter/TOTAL.json')
+    .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+    .then(function (d) {
+      if (!d || !d.count) return;
+      document.getElementById('visit-n').textContent = d.count;
+      document.getElementById('visit-count').hidden = false;
+    })
+    .catch(function () {});
+})();
+</script>
+{% endif %}
+{% endif %}
 </body>
 </html>

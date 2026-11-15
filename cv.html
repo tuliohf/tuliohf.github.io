@@ -222,13 +222,30 @@
       <strong>Tulio Honorio de Faria</strong><br>
       Research Engineer · Senior Expert, Concrete and Clay Laboratory, CEA Paris-Saclay
       <br><span class="mono">tulio.honoriodefaria@cea.fr</span>
-      <br><span class="updated">Last updated 27 October 2026</span>
+      <br><span class="updated">Last updated 15 November 2026</span><span class="visits" id="visit-count" hidden> · <span id="visit-n"></span> visits</span>
     </div>
     <ul class="profile-links">
       <li><a href="https://scholar.google.fr/citations?user=8kHPd58AAAAJ">Google Scholar</a></li><li><a href="https://orcid.org/0000-0003-0281-4502">ORCID</a></li><li><a href="https://www.webofscience.com/wos/author/record/535317">Web of Science</a></li><li><a href="https://github.com/tuliohf">GitHub</a></li><li><a href="https://cv.archives-ouvertes.fr/tulio-honorio">HAL</a></li><li><a href="https://www.researchgate.net/profile/Tulio-Honorio">ResearchGate</a></li>
     </ul>
   </div>
 </footer>
+
+
+<script data-goatcounter="https://tuliohf.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+
+<script>
+(function () {
+  fetch('https://tuliohf.goatcounter.com/counter/TOTAL.json')
+    .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+    .then(function (d) {
+      if (!d || !d.count) return;
+      document.getElementById('visit-n').textContent = d.count;
+      document.getElementById('visit-count').hidden = false;
+    })
+    .catch(function () {});
+})();
+</script>
+
 
 </body>
 </html>

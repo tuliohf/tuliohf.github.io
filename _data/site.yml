@@ -13,6 +13,11 @@ address:
   - CEA Paris-Saclay
   - 91191 Gif-sur-Yvette, France
 
+# Visit statistics (GoatCounter, no cookies). Your dashboard: https://tuliohf.goatcounter.com
+# Leave empty to switch statistics off. show_visits: true shows the total visit count in the footer.
+goatcounter: tuliohf
+show_visits: true
+
 cv_pdf: HONORIO_CV_EN_Jul_2026.pdf
 site_url: https://tuliohf.github.io
 
