@@ -24,10 +24,13 @@
   doi: 10.1039/D6CP02999J
 - id: J68
   type: journal
-  status: under revision
+  status: published
+  year: 2026
   title: 'Apparent thermal contraction of cement pastes up to 175°C: experimental characterization, multiscale model, repercussions at the concrete scale'
   authors: Cheng, S.*; Poyet, S.; Honorio, T.; Hild, F.; Bary, B.
   journal: Cement and Concrete Research
+  details: 212, 108479
+  doi: 10.1016/j.cemconres.2026.108479
 - id: J67
   type: journal
   status: published
