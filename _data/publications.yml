@@ -14,7 +14,7 @@
   status: under review
   title: 'Atomistic modelling of AFm phases: interlayer structure, anion exchange, and the electrostatic origin of solubility'
   authors: Tararushkin, E.V.; Smirnov, G.S.; Honorio, T.
-- id: J69
+- id: J68
   type: journal
   status: published
   year: 2026
@@ -22,10 +22,10 @@
   authors: Simeone, D.; Herin, T.; Bouniol, P.; Poyet, S.; Honorio, T.; Le Caër, S.
   journal: Physical Chemistry Chemical Physics
   doi: 10.1039/D6CP02999J
-- id: J68
+- id: J69
   type: journal
   status: published
-  year: 2026
+  year: 2027
   title: 'Apparent thermal contraction of cement pastes up to 175°C: experimental characterization, multiscale model, repercussions at the concrete scale'
   authors: Cheng, S.*; Poyet, S.; Honorio, T.; Hild, F.; Bary, B.
   journal: Cement and Concrete Research
